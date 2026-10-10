@@ -33,3 +33,9 @@ Fuente nativa: el juego determina créditos, naves, NPC, almacenes, órdenes, re
 
 ## Fuentes
 Decisiones dialogadas V3–V5.7; materiales aportados por el usuario (Reorientar desarrollo del mod, Integrar juego DLC y mods); docs/ENTORNO_DESARROLLO.md; docs/INVENTARIO_REPOSITORIO.md. Los materiales preliminares aportados contienen propuestas anteriores: ante divergencia prevalece la última decisión presidencial explícita.
+
+## Aplicación V5.7 — opción A (2026-10-10)
+
+Decisión vigente: opción A, leer una estación propia real y almacenamiento, antes de cualquier Bolo. El commit inicial `b1a3e344` contiene especificaciones, no código ni ensayos de motor. Separar APROBADO, VERIFICADO y NOT_TESTED en toda comunicación.
+
+**Evidencias:** se evaluará conforme a [V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA COM57](19_MATRIZ_QA_EVIDENCIAS.md); esta actualización es documental, no una prueba superada.
