@@ -33,3 +33,9 @@ Desencadenantes observables; recompensa informativa, oportunidad de negocio o ac
 
 ## Trabajo abierto
 Definir matriz de veinte IDs únicos, dependencias, entradas/salidas, localización ES/EN y migraciones de flags. Estado: PLANIFICADO, no implementado.
+
+## V5.7 — opción A: aplicación al dominio
+
+La consulta no avanza ninguna misión; comparar los estados narrativos previos y posteriores, distinguiendo progresos naturales.
+
+**Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
