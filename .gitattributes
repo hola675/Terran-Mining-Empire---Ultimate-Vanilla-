@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.zip binary
+*.rar binary
+*.7z binary
+*.cat binary
+*.dat binary
+*.png binary
+*.jpg binary
+*.tga binary
+*.dds binary
+*.gz binary
+*.ogg binary
+*.wav binary
+*.xmf binary
+*.ani binary

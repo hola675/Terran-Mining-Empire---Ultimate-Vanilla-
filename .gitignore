@@ -1,0 +1,35 @@
+# Originales y descargas locales
+/raw/
+/reference/
+/new/
+
+# Salidas y estado local
+/workspace/
+/dist/
+/skill-observations/
+*.log
+*.dmp
+*.zip
+*.rar
+*.7z
+*.cat
+*.dat
+*.vsix
+*.exe
+*.dll
+
+# Sistema y editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+# Residuos locales del entorno anterior, pendientes de retirada del equipo
+/.venv/
+/.claude/
+/.serena/
+/.vscode/
+/reports/
+/tools/
+/tests/
+/test/
