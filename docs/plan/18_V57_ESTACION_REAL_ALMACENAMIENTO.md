@@ -34,3 +34,9 @@ Extensión fuente propia aún inexistente en el main consultado. Local x4cat/XSD
 
 ## Resultado y siguiente fase
 Se puede marcar COM57_STATION_PASS solamente tras comparar lecturas reales y persistencia. Después añadir una Bolo real/capitán, luego varias estaciones, y solo más tarde contabilidad de reservas y recomendaciones.
+
+## V5.7 — ratificación y criterios operativos (2026-10-10)
+
+Opción A ratificada: estación real propia, administrador y almacén sólido. Pruebas necesarias: inventario positivo, cero real, cambio natural, renombrado, dos solicitudes consecutivas, SAVE/LOAD, referencia ausente y regresión de órdenes/créditos.
+
+**Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).
