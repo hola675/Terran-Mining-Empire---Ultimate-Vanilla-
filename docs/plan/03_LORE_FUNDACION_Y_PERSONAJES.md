@@ -31,3 +31,9 @@ Cultura y tecnología predominantemente terranas; colaboración posible con Prot
 
 ## Riesgos de diseño narrativo
 No forzar personajes sobre saves existentes, ni teletransportar naves, ni crear ciudadanos o defensores de la nada. Las escenas y diálogos deben comprobar flags de reclutamiento, existencia y posición. La progresión debe sentirse ganada por el jugador.
+
+## V5.7 — opción A: aplicación al dominio
+
+La observación de una estación real no concede activos, personajes ni recompensas; Darian, Liora e Iven conservan los arcos previstos.
+
+**Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
