@@ -1,4 +1,6 @@
-# Originales y descargas locales
+# Entradas originales y descargas locales
+/inputs/
+# Compatibilidad con la ruta anterior
 /raw/
 /reference/
 /new/
