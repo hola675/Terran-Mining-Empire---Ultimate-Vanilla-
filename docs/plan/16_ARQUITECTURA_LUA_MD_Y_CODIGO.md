@@ -46,3 +46,9 @@ Investigar APIs exactas en índice x4cat y XSD; generar scaffold mínimo; valida
 
 ## Riesgos
 Fallos de FFI, eventos no registrados, diferencias boolean 0/1, LuaID sin conversión, propiedades de inventario no expuestas, snapshot obsoleto, distintos DLC y Protected UI Mode. Cada riesgo requiere prueba y degradación a UNKNOWN.
+
+## V5.7 — ratificación y criterios operativos (2026-10-10)
+
+Descubrir primero firmas reales de X4 9.00 en x4cat/XSD; instrumentar request_id, session_generation, respuesta MD y correlación, sin inventar APIs. Crear fuente aislada y staging, nunca cambiar scripts vanilla.
+
+**Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).
