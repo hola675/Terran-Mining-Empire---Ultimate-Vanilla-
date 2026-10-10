@@ -28,3 +28,9 @@ La decisión debe surgir de datos: stock saturado, rechazos a descarga, colas re
 
 ## Construcción
 Cada módulo debe consumirse mediante el sistema normal, con planos desbloqueados, material y constructora en condiciones válidas. En presupuestos separar coste de mercancías, planos, contratación, equipamiento y cambios de estaciones.
+
+## V5.7 — opción A: aplicación al dominio
+
+Comparar almacén sólido con Logical Station Overview. Distinguir capacidad, espacio ocupado y unidades de mineral/silicio; UNKNOWN no significa cero. No crear módulos ni inventario.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).
