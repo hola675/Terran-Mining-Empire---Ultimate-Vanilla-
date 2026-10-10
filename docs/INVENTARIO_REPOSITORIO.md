@@ -1,16 +1,16 @@
 # Inventario actual del repositorio
 
-**Fecha del inventario:** 2026-10-09
+**Fecha del inventario:** 2026-10-10
 **Raíz inspeccionada:** `D:\Proyectos\Terran Mining Empire — Ultimate Vanilla+`
 **Alcance:** archivos y carpetas presentes en la carpeta de trabajo, incluidos archivos ignorados por Git. Se excluyen `.git/` y los destinos externos de junctions; se enumeran las junctions locales, pero no sus archivos de destino.
 
 ## Resumen
 
-- **Archivos regulares actuales:** 122, incluido este inventario.
-- **Paquetes comprimidos:** 90 (81 ZIP, 6 7Z y 3 RAR).
+- **Archivos regulares actuales:** 16.610, incluidos archivos locales ignorados por Git y los dos documentos de `docs/`.
+- **Paquetes comprimidos:** 110 (100 ZIP, 6 7Z y 4 RAR).
 - **Bytecode Python (`.pyc`):** 24; no se encontraron fuentes `.py` correspondientes en la carpeta de trabajo.
-- **Estado de Git al preparar el inventario:** `.gitattributes` y `.gitignore` estaban rastreados; el documento y la actualización de `.gitignore` estaban pendientes. Los paquetes bajo `inputs/`, junto con `.claude/`, `.serena/` y `tools/`, están excluidos por las reglas actuales de `.gitignore`.
-- **Código del mod propio:** no se encontraron archivos fuente XML, LUA u otros archivos de juego en la raíz inspeccionada; el material disponible consiste principalmente en descargas comprimidas, configuración local e indicadores de bytecode.
+- **Estado de Git al actualizar el inventario:** `.gitattributes`, `.gitignore` y este documento están rastreados. Los paquetes bajo `inputs/`, junto con `.claude/`, `.serena/` y `tools/`, están excluidos por las reglas actuales de `.gitignore`.
+- **Código de Terran Mining Empire:** no se encontró una carpeta de fuente del mod. El espacio `workspace/mods/` está vacío; los archivos de código instalados bajo `tools/X4_Forge-main/` pertenecen a la herramienta de desarrollo.
 
 ## Componentes
 
@@ -25,7 +25,9 @@
 | `inputs/mods/` | Colección de archivos comprimidos de mods descargados para evaluar o utilizar. |
 | `inputs/reference/mods/` | Paquetes comprimidos de mods usados como referencias. |
 | `inputs/reference/tools/` | Paquetes comprimidos de herramientas de terceros para X4. |
+| `tools/X4_Forge-main/` | Fuente local de X4 Forge Studio, dependencias npm instaladas y salida de compilación; se mantiene ignorada por Git. |
 | `tools/x4pack/__pycache__/` | Bytecode compilado de módulos Python relacionados con empaquetado, análisis, manifiestos, validación y reportes; el código fuente no está presente. |
+| `workspace/` | Área local ignorada por Git: índice SQLite del juego X4 9.00, 42 esquemas XSD, carpeta de trabajo de mods y destino de staging. |
 
 ## Archivos de configuración e instrucciones
 
@@ -42,6 +44,7 @@
 | Archivo | Contenido |
 |---|---|
 | `docs/INVENTARIO_REPOSITORIO.md` | Este documento: estructura, resumen de componentes y descripción individual de los archivos presentes. |
+| `docs/ENTORNO_DESARROLLO.md` | Rutas locales de X4 Forge y x4cat, índice y esquemas instalados, comandos de uso y requisitos opcionales. |
 
 ## Bytecode Python
 
@@ -170,10 +173,30 @@ Cada fila identifica un archivo presente en `inputs/`. Para ZIP se lee el índic
 | `inputs/reference/tools/X4CodeSense-1.0.0.zip 2422 1.0.0 2026-10-05T11-52Z EfJtJXqxQ.zip` | 644.514 bytes | Paquete comprimido de herramienta externa para el flujo de trabajo X4. ZIP legible: 3 entradas; ejemplos: X4CodeSense-1.0.0/LICENSE.txt, X4CodeSense-1.0.0/README.txt, X4CodeSense-1.0.0/x4codesense-1.0.0.vsix. |
 | `inputs/reference/tools/X4ModDoctor-1.1-win-x64.zip` | 69.484.407 bytes | Paquete comprimido de herramienta externa para el flujo de trabajo X4. ZIP legible: 427 entradas; ejemplos: Assets/Splash/splash-background.png, cs/PresentationCore.resources.dll, cs/PresentationFramework.resources.dll, cs/PresentationUI.resources.dll, cs/ReachFramework.resources.dll, … (+422 entradas). |
 | `inputs/reference/tools/X4SectorCreator-1.4.1-win-x64-1641-1-4-1-1763308406.zip` | 45.878.768 bytes | Paquete comprimido de herramienta externa para el flujo de trabajo X4. ZIP legible: 64 entradas; ejemplos: Data/, Data/Icons/, Data/Icons/defence.png, Data/Icons/equipmentdock.png, Data/Icons/faction_logic_disabled.png, … (+59 entradas). |
+| `inputs/mods/Advanced crew transfer 1929 2.0.1 2026-07-27T09-56Z IlXZXLQs3.zip` | 70.394 bytes | Paquete de mod para transferir tripulaciones entre naves. ZIP legible: 12 entradas; ejemplos: mycu_advanced_crew_transfer/content.xml, mycu_advanced_crew_transfer/ui.xml, mycu_advanced_crew_transfer/md/advanced_crew_transfer.xml, mycu_advanced_crew_transfer/t/0001-l086.xml, … (+8 entradas). |
+| `inputs/mods/Escape Pod reloaded 1899 1.5.1 2026-08-21T17-06Z 2j4J4HM7p.zip` | 509.922 bytes | Paquete del mod Escape Pod para X4. ZIP legible: 4 entradas; ejemplos: escape_pod/, escape_pod/content.xml, escape_pod/ext_01.cat, escape_pod/ext_01.dat. |
+| `inputs/mods/Living Crew V133 For X4empire Update-2076-133-1776715288.rar` | 8.778 bytes | Paquete del mod Living Crew. RAR legible: 4 rutas; ejemplos: living_crew/content.xml, living_crew/md/living_crew.xml, living_crew/md, living_crew. |
+| `inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip` | 145.038 bytes | Paquete del mod Rescue Rangers, que permite rescatar tripulaciones. ZIP legible: 6 entradas; ejemplos: rescuerangers/, rescuerangers/CHANGELOG.md, rescuerangers/content.xml, rescuerangers/ext_01.cat, … (+2 entradas). |
+| `inputs/reference/mods/ut_advanced_renaming-master.zip` | 604.960 bytes | Repositorio fuente del mod Advanced Renaming, con scripts de IA y manual. ZIP legible: 38 entradas; ejemplos: ut_advanced_renaming-master/, ut_advanced_renaming-master/.gitattributes, ut_advanced_renaming-master/Manual.odt, ut_advanced_renaming-master/aiscripts/, … (+34 entradas). |
+| `inputs/reference/mods/x4-foundations-station-budget-watchdog-main.zip` | 71.086 bytes | Repositorio fuente del mod Station Budget Watchdog para administrar fondos de estaciones. ZIP legible: 29 entradas; ejemplos: x4-foundations-station-budget-watchdog-main/, x4-foundations-station-budget-watchdog-main/.gitignore, x4-foundations-station-budget-watchdog-main/LICENSE, x4-foundations-station-budget-watchdog-main/README.md, … (+25 entradas). |
+| `inputs/reference/mods/X4-GateManageAPI-main.zip` | 1.632.365 bytes | Repositorio fuente de una API de juego para administrar puertas y aceleradores. ZIP legible: 22 entradas; ejemplos: X4-GateManageAPI-main/, X4-GateManageAPI-main/.github/, X4-GateManageAPI-main/.github/workflows/, X4-GateManageAPI-main/.github/workflows/on-markdown-update.yml, … (+18 entradas). |
+| `inputs/reference/mods/X4-HotKeyAPI-main.zip` | 5.100.097 bytes | Repositorio fuente de la API Native Hotkey para registrar acciones de teclas rápidas de otros mods. ZIP legible: 52 entradas; ejemplos: X4-HotKeyAPI-main/, X4-HotKeyAPI-main/.github/, X4-HotKeyAPI-main/.github/workflows/, X4-HotKeyAPI-main/.github/workflows/on-markdown-update.yml, … (+48 entradas). |
+| `inputs/reference/mods/x4-mod-da-ku-ai-tweaks-master.zip` | 254.649 bytes | Repositorio fuente de ajustes de IA para combate y conducta de naves. ZIP legible: 88 entradas; ejemplos: x4-mod-da-ku-ai-tweaks-master/, x4-mod-da-ku-ai-tweaks-master/.gitattributes, x4-mod-da-ku-ai-tweaks-master/.gitignore, x4-mod-da-ku-ai-tweaks-master/README.md, … (+84 entradas). |
+| `inputs/reference/mods/x4-mod-ui-extensions-master.zip` | 1.983.555 bytes | Repositorio fuente del mod kuertee UI Extensions and HUD. ZIP legible: 48 entradas; ejemplos: x4-mod-ui-extensions-master/, x4-mod-ui-extensions-master/.gitattributes, x4-mod-ui-extensions-master/README.md, x4-mod-ui-extensions-master/content.xml, … (+44 entradas). |
+| `inputs/reference/mods/x4-projects-master.zip` | 565.617 bytes | Repositorio contenedor con varios proyectos de X4; sus subcarpetas incluyen mods y utilidades. ZIP legible: 294 entradas; ejemplos: x4-projects-master/, x4-projects-master/.gitattributes, x4-projects-master/.gitignore, x4-projects-master/.vscode/, … (+290 entradas). |
+| `inputs/reference/mods/x4-warehouse-fleets-master.zip` | 78.804 bytes | Repositorio fuente del mod Warehouse Fleets para tareas logísticas de flotas y estaciones. ZIP legible: 19 entradas; ejemplos: x4-warehouse-fleets-master/, x4-warehouse-fleets-master/WarehouseFleets.drawio.png, x4-warehouse-fleets-master/aiscripts/, x4-warehouse-fleets-master/aiscripts/order.assist.xml, … (+15 entradas). |
+| `inputs/reference/tools/ioTools-X4Foundations-main.zip` | 131.984.572 bytes | Colección de utilidades de terceros para X4; incluye herramientas de fuentes, texturas y recursos. ZIP legible: 185 entradas; ejemplos: ioTools-X4Foundations-main/, ioTools-X4Foundations-main/.gitignore, ioTools-X4Foundations-main/FontTools/, ioTools-X4Foundations-main/FontTools/.gitignore, … (+181 entradas). |
+| `inputs/reference/tools/template-x4-mod-main.zip` | 5.745 bytes | Plantilla de proyecto para crear mods de X4 con ejemplos de scripts y documentación de configuración. ZIP legible: 13 entradas; ejemplos: template-x4-mod-main/, template-x4-mod-main/.gitignore, template-x4-mod-main/LICENSE, template-x4-mod-main/README.md, … (+9 entradas). |
+| `inputs/reference/tools/X4_Customizer-master.zip` | 671.274 bytes | Herramienta con interfaz y complementos para modificar archivos del juego y catálogos X4. ZIP legible: 216 entradas; ejemplos: X4_Customizer-master/, X4_Customizer-master/.gitattributes, X4_Customizer-master/.gitignore, X4_Customizer-master/Documentation.md, … (+212 entradas). |
+| `inputs/reference/tools/X4_Forge-main.zip` | 26.283.784 bytes | Herramientas de desarrollo y validación de mods para X4, con registro de APIs comunitarias. ZIP legible: 858 entradas; ejemplos: X4_Forge-main/, X4_Forge-main/.agents/, X4_Forge-main/.agents/rules/, X4_Forge-main/.agents/rules/graphify.md, … (+854 entradas). |
+| `inputs/reference/tools/x4-dev.zip` | 12.541.940 bytes | Repositorio de utilidades y base de datos para X4. ZIP legible: 393 entradas; ejemplos: x4-dev/, x4-dev/.browserslistrc, x4-dev/.editorconfig, x4-dev/.github/, … (+389 entradas). |
+| `inputs/reference/tools/X4-XMLDiffAndPatch-main.zip` | 66.645 bytes | Herramientas para comparar y aplicar parches XML de X4. ZIP legible: 32 entradas; ejemplos: X4-XMLDiffAndPatch-main/, X4-XMLDiffAndPatch-main/.editorconfig, X4-XMLDiffAndPatch-main/.github/, X4-XMLDiffAndPatch-main/.github/workflows/, … (+28 entradas). |
+| `inputs/reference/tools/x4cat-main.zip` | 149.245 bytes | CLI y biblioteca Python para listar, extraer, empaquetar y comparar archivos CAT/DAT de X4. ZIP legible: 93 entradas; ejemplos: x4cat-main/, x4cat-main/.github/, x4cat-main/.github/workflows/, x4cat-main/.github/workflows/ci.yml, … (+89 entradas). |
+| `inputs/reference/tools/X4SectorCreator-main.zip` | 865.632 bytes | Herramienta para crear sectores y conexiones de puertas; genera la estructura de un mod. ZIP legible: 343 entradas; ejemplos: X4SectorCreator-main/, X4SectorCreator-main/.gitignore, X4SectorCreator-main/DevConsole/, X4SectorCreator-main/DevConsole/DevConsole.csproj, … (+339 entradas). |
 
 ## Límites y observaciones
 
 - Los nombres y tamaños de los archivos describen la copia de trabajo inspeccionada; los paquetes comprimidos pueden contener muchos más archivos internos que los resumidos en la tabla.
-- No se encontró `README.md`, documentación general del mod, código fuente Python, fuente de mod desempaquetada ni archivos de pruebas en esta copia.
+- La raíz aún no contiene el README del proyecto ni el código fuente de Terran Mining Empire. La carpeta `workspace/mods/` está vacía; X4 Forge y sus fuentes son una herramienta externa, no el código del mod.
 - `.gitignore` excluye del repositorio la mayoría de los componentes observados. El documento se guarda bajo `docs/`, ruta que no está excluida por las reglas leídas.
-- Este inventario enumera todos los archivos regulares encontrados fuera de `.git/` al momento de la inspección. Las carpetas vacías se describen en “Componentes”, pero no cuentan como archivos. Los diez junctions se enumeran por su ruta local; sus destinos quedan fuera del alcance.
+- Este inventario cuenta los archivos regulares encontrados fuera de `.git/` al momento de la inspección, incluidos `tools/` y `workspace/`, aunque Git los ignore. Las carpetas vacías se describen en “Componentes”, pero no cuentan como archivos. Los diez junctions se enumeran por su ruta local; sus destinos quedan fuera del alcance.
