@@ -42,3 +42,11 @@ Guardar reportes con fecha, versión de juego, DLC, mods activos, commit exacto,
 
 ## Rollback
 Validar restauración del save; registrar si quitar una extensión deja referencias pendientes. En COM-01 solo lectura se espera reversibilidad elevada, pero debe demostrarse. Mods de puertas pueden requerir desinstalación controlada y no son parte del primer prototipo.
+
+## V5.7 — ratificación y criterios operativos (2026-10-10)
+
+Los 15 casos COM57 siguen NOT_TESTED hasta contar con ejecución y pruebas reales. Cada PASS requiere versión X4/DLC, save, hash extensión, request_id, capturas vanilla/COM, logs, resultados y rollback verificable.
+
+**Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).
+
+Extensión futura (sin mezclar con COM57): FAC-01 titularidad player en activos clasificados; FAC-02 prioridad de orden manual; FAC-03 funcionamiento de IA vanilla; TER-01 módulo reclamante nativo; TER-02 exclusividad NPC de los cuatro sectores; TER-03 pérdida/destrucción/SAVE/LOAD; TER-04 anexión sector neutral colindante con recursos; TER-05 disputa NPC sin anexión gratuita; TER-06 culminación de los cuatro sin hostilidad programada. Todos `NOT_TESTED`. Detalle y criterios en [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).

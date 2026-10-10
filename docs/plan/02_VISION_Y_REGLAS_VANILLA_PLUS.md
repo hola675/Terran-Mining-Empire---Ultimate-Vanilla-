@@ -30,3 +30,13 @@ Permitido sin actuación sobre el juego: observar, analizar, redactar expediente
 
 ## Condición de aceptación general
 Instalación compatible, eventos y menús reversibles, ninguna regresión en economía, scripts, campañas y saves; documentación con evidencia real por cada PASS. Todo fallo no reproducible o acceso API ausente queda explícito como bloqueo.
+
+## Aplicación V5.7 — opción A (2026-10-10)
+
+V5.7 es solo observación: prohibido cambiar órdenes, inventarios, dinero, propiedad, gerentes, guiones de economía, relaciones o misiones. Datos no leídos = UNKNOWN y no cero; prohibidas cifras simuladas presentadas como reales. Exigir rollback validado.
+
+**Evidencias:** se evaluará conforme a [V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA COM57](19_MATRIZ_QA_EVIDENCIAS.md); esta actualización es documental, no una prueba superada.
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+**Una facción, una titularidad real:** todas las propiedades siguen siendo del jugador en el motor. Consejo y directores no cambian dueños ni sustituyen IA de Egosoft. Solo los cuatro sectores principales requieren una política excepcional de exclusividad; nunca invasiones automáticas ni anexiones gratuitas. Ver [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).

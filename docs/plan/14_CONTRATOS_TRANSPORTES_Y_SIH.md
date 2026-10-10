@@ -27,3 +27,9 @@ X4 Mission Director/UI; Gate Manage API y mods de puertas como referencias exter
 
 ## Incidencias
 Ruta inaccesible; mercancía reservada a otro proyecto; precio no compatible; constructora ausente; bodega incompatible; daño; salvado a mitad de viaje; evento repetido; endpoint remoto inaccesible. Fallo parcial de puerta debe generar BLOCKED, no recreaciones automáticas.
+
+## V5.7 — opción A: aplicación al dominio
+
+No crear manifiestos ni transferencias SIH. Leer un cambio de stock no prueba por sí mismo un contrato entregado. Toda escritura queda aplazada.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).

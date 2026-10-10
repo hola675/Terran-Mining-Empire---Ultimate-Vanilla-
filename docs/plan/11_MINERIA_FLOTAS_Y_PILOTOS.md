@@ -31,3 +31,9 @@ Cada capitán y administrador es un NPC real con habilidades y moral observadas.
 
 ## Inversión
 Reorganización primero, compras después de medir cuello de botella, tiempo y capacidad; comprar nueva Bolo solo con precio equipado, tripulación y aprobación de Presidencia.
+
+## V5.7 — opción A: aplicación al dominio
+
+No reasignar Bolos, pilotos, mineras ni comandos vanilla. La lectura de Bolo y capitán constituye el siguiente corte tras V5.7.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).

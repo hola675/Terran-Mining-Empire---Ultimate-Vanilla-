@@ -52,3 +52,9 @@ Cambios manuales por usuario prevalecen. Los datos podrían cambiar entre lectur
 
 ## Privacidad y rendimiento
 No registrar volúmenes masivos de universo ni snapshots completos cada segundo. Limitar observación a activos vinculados y muestreo de pruebas. Identificadores en logs deben servir a diagnóstico sin inventar nombres de NPC.
+
+## V5.7 — ratificación y criterios operativos (2026-10-10)
+
+El snapshot lógico no es formato blackboard certificado. Persistir identidad corporativa y resolver referencia real en save/load; descartar respuestas fuera de orden. MISSING_OBJECT prohíbe recrear entidad o vincular por nombre.
+
+**Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).

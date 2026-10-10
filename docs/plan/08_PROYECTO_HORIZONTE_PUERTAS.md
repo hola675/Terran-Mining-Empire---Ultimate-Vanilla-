@@ -30,3 +30,13 @@ Validar fondos y reservas, dos almacenes de construcción, materiales efectivame
 
 ## Precedentes y propiedad intelectual
 Inix Gate Network Control y Gate Manage API son precedentes externos a estudiar, **no dependencias instaladas/avaladas ni código reutilizable automáticamente**. Comprobar licencia, compatibilidad y alternativas en X4 9.00 antes de adoptar adaptador.
+
+## V5.7 — opción A: aplicación al dominio
+
+HZ-04A, construcción de puertas y Proyecto Horizonte no bloquean la lectura de estación. No activar conexiones ni modificar universo durante las pruebas COM57.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+Las siete conexiones previstas de los cuatro sectores no cambian. Construir una puerta NO transfiere propiedad territorial ni inicia hostilidades. El núcleo sigue reservado exclusivamente al jugador durante toda la partida. La apertura de rutas exteriores para expansión solo podrá proponerse con financiación, ingeniería y comprobación de rutas reales; tampoco se inventarán conexiones gratuitas a sectores neutrales. [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).

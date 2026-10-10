@@ -30,3 +30,9 @@ Evitar sustituir interfaces vanilla extensas y no añadir botones globales sin e
 
 ## Política personal
 Kopis y Kukri personales fuera del panel de activos corporativos salvo vinculación consentida, aunque puedan aparecer en otras vistas del juego.
+
+## V5.7 — ratificación y criterios operativos (2026-10-10)
+
+COM muestra una sola estación vinculada, fecha de lectura y calidad por campo; botón de refresco únicamente consulta. Estados VERIFIED, UNKNOWN, UNSUPPORTED, STALE y ERROR. La UI no muestra mock como dato real.
+
+**Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).

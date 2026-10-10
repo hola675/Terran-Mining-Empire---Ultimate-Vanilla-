@@ -41,3 +41,9 @@ V5.7 se centrará en leer **una estación real y su almacenamiento** sin alterar
 - [Entorno de desarrollo](ENTORNO_DESARROLLO.md) e [inventario histórico](INVENTARIO_REPOSITORIO.md).
 - [Comunicación Lua/MD](https://wiki.egosoft.com/X4%20Foundations%20Wiki/Modding%20Support/UI%20Modding%20support/Talking%20with%20MD%20and%20AI%20scripts/).
 - [Soporte oficial de modding X4](https://wiki.egosoft.com/X4%20Foundations%20Wiki/Modding%20Support/).
+
+## Decisión arquitectónica ratificada — facción única
+
+- [ADR-0001: facción nativa del jugador, exclusividad permanente de los cuatro sectores y anexión exterior colindante](decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).
+- **Se descarta** la alternativa de facción NPC subordinada y se revoca la propuesta exploratoria de liberar los cuatro sectores a la colonización de terceros.
+- V5.7 conserva su alcance exclusivo de observación de estación, almacenamiento y persistencia. El adaptador territorial aún NO está implementado ni validado en X4 9.00.

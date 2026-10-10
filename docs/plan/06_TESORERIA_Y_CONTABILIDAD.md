@@ -28,3 +28,13 @@ Toda inversión debe tener coste equipado/completo, proveedores reales, plan de 
 
 ## QA financiero
 No gastar dinero privado inadvertidamente; no duplicar las estaciones en el consolidado; controlar cobros y pagos efectivos; audit trail idempotente en guardar/cargar. Marcar FINANCE_PARTIAL hasta resolver la separación de cartera y cuentas.
+
+## V5.7 — opción A: aplicación al dominio
+
+Registrar créditos antes/después como control de no modificación; cero operaciones monetarias efectuadas por el observador.
+
+**Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+**Clasificación, no cambio de facción:** patrimonio personal y tesorería corporativa separan responsabilidad y contabilidad, pero no convierten los activos en una facción NPC. El propietario técnico de naves/estaciones sigue siendo el jugador; ninguna etiqueta corporativa crea créditos. Ver [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).

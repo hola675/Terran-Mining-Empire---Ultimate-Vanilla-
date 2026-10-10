@@ -35,3 +35,13 @@ No preguntar de nuevo decisiones A/B/C ya resueltas. Si aparece una discrepancia
 
 ## Criterio de entrega a agentes
 Una tarea de implementación debe citar objetivo, alcance, precondiciones, invariantes Vanilla+, archivos admitidos, contratos de datos, tests, logs y rollback. Pedir commit/PR y resumen español con evidencias, no mera afirmación de éxito.
+
+## V5.7 — ratificación y criterios operativos (2026-10-10)
+
+V5.7 permanece en especificación hasta STATION_PASS real. Después observar Bolo/piloto, múltiples estaciones y solo luego reservas y autorizaciones. No iniciar HZ-04A para resolver bloqueos de lectura COM.
+
+**Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+ADR-0001 reemplaza el estudio exploratorio de facción NPC/híbrida y de exclusividad temporal: usar facción nativa del jugador y conservar exclusividad permanente de los cuatro sectores. Después de V5.7 y la lectura de Bolo/piloto, planificar pruebas FAC-01–03 y TER-01–06. La política de anexión exterior colindante es corporativa; no intercepta órdenes manuales vanilla. No provocar guerras por hitos. El protector de los cuatro sectores es un desarrollo específico pendiente, NO una función vanilla certificada. [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).

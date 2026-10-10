@@ -33,3 +33,13 @@ Fuente nativa: el juego determina créditos, naves, NPC, almacenes, órdenes, re
 
 ## Fuentes
 Decisiones dialogadas V3–V5.7; materiales aportados por el usuario (Reorientar desarrollo del mod, Integrar juego DLC y mods); docs/ENTORNO_DESARROLLO.md; docs/INVENTARIO_REPOSITORIO.md. Los materiales preliminares aportados contienen propuestas anteriores: ante divergencia prevalece la última decisión presidencial explícita.
+
+## Aplicación V5.7 — opción A (2026-10-10)
+
+Decisión vigente: opción A, leer una estación propia real y almacenamiento, antes de cualquier Bolo. El commit inicial `b1a3e344` contiene especificaciones, no código ni ensayos de motor. Separar APROBADO, VERIFICADO y NOT_TESTED en toda comunicación.
+
+**Evidencias:** se evaluará conforme a [V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA COM57](19_MATRIZ_QA_EVIDENCIAS.md); esta actualización es documental, no una prueba superada.
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+**Política de facción ratificada (ADR-0001):** Terran Mining Empire es la propia facción nativa del jugador, sin segunda facción NPC. Los cuatro sectores fundacionales mantienen exclusividad permanente; la expansión corporativa guiada considera sectores exteriores colindantes. La finalización de los cuatro sectores no genera guerra ni desbloquea reclamaciones NPC. Véase [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).

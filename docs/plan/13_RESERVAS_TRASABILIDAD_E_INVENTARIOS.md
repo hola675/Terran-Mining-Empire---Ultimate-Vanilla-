@@ -27,3 +27,9 @@ Meta orientativa = consumo observado × horas de cobertura deseadas, sujeto a al
 
 ## Pruebas
 Venta manual durante reserva, dos solicitudes simultáneas, pérdida de nave cargada, consumo en obra, carga/descarga parcial, falla en guardado, borrado de proyecto, saldo interno sin beneficio externo, vuelta atrás sin mercancía ficticia.
+
+## V5.7 — opción A: aplicación al dominio
+
+La disponibilidad observada no constituye reserva P1/P2/P3. No descontar, duplicar ni comprometer mercancías por leerlas; conservar unidades y origen.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).
