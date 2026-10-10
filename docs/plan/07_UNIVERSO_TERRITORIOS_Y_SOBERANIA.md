@@ -27,3 +27,9 @@ Control de nuevas estaciones NPC, restricciones de paso y tránsito de otras fac
 
 ## Diseño espacial
 La ubicación de puertas requiere mapa, aproximaciones despejadas, orientación, ausencia de conflictos físicos, rutas IA y manuales seguras. No inventar coordenadas hasta tener geometría real. El extremo remoto de una puerta hacia sector inaccesible necesita mecanismo de obra legalmente abastecible; bloquear la activación mientras no se resuelva.
+
+## V5.7 — opción A: aplicación al dominio
+
+La estación del ensayo puede residir en un sector vanilla existente; no se crearán sectores ni puertas para certificar V5.7.
+
+**Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
