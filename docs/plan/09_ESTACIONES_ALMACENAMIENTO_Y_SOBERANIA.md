@@ -34,3 +34,5 @@ Cada módulo debe consumirse mediante el sistema normal, con planos desbloqueado
 Comparar almacén sólido con Logical Station Overview. Distinguir capacidad, espacio ocupado y unidades de mineral/silicio; UNKNOWN no significa cero. No crear módulos ni inventario.
 
 **Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).
+
+Los módulos administrativos construidos por el jugador y validados por X4 son requisito para afirmar soberanía **nativa**. La exclusividad adicional de los cuatro sectores fundacionales pertenece al ámbito de una excepción territorial TME aún por desarrollar; no modificar módulos propios ni regalar propiedad. Estaciones de otros sectores siguen las reclamaciones normales del juego. Véase [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).
