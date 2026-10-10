@@ -39,3 +39,7 @@ No simular nóminas periódicas ni niveles de habilidad que X4 no cobre/otorgue.
 Leer únicamente el administrador real. Una referencia ausente no permite crear, reasignar ni ascender NPC.
 
 **Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+**Facción única:** Darian, Liora, Iven, Consejo y directores son cargos dentro de las propiedades del jugador. Operan con asignaciones, gerentes y comandantes vanilla cuando existan autorizaciones y métodos comprobados; no se crean facciones subordinadas, ni un NPC se convierte en dueño de propiedades corporativas. Las decisiones presidenciales prevalecen. Ver [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).
