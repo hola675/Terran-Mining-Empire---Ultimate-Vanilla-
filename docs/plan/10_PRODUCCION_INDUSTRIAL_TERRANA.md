@@ -31,3 +31,9 @@ Con dos solares al 100 % nominal: 6.000 celdas/h. El piloto gasta 7.400: défici
 
 ## Prueba obligatoria
 Producir primer lote real de sustrato, ver su ingreso de inventario y consumo de entradas, conciliar 98 unidades nominales con posibles modificaciones efectivas. No fabricar wares para comprobar UI.
+
+## V5.7 — opción A: aplicación al dominio
+
+No derivar rendimientos de fábrica de un snapshot de almacenamiento. CIT-01 continúa pendiente; ninguna receta, ciclo o mercancía se modifica.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).
