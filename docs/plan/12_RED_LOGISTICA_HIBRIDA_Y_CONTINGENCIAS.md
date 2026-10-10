@@ -32,3 +32,9 @@ La recuperación no abre una segunda solicitud completa si existe un contrato di
 
 ## Pruebas
 Interrupción genuina, diagnóstico correcto, alternativa disponible, permiso, envío real, descarga, persistencia e idempotencia de SAVE/LOAD, respeto de P1/P2 y de órdenes prioritarias.
+
+## V5.7 — opción A: aplicación al dominio
+
+Una variación natural de stock permite comparar dos snapshots sin ejecutar nuevas órdenes ni contratos. No recuperar naves ni desplegar logística desde el observador.
+
+**Estado:** especificación, aún sin pruebas X4 ejecutadas. Aplicar [protocolo V5.7](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [matriz COM57](19_MATRIZ_QA_EVIDENCIAS.md).
