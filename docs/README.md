@@ -4,6 +4,8 @@
 
 Esta carpeta organiza la conversación aprobada y el contexto de los materiales proporcionados por el usuario. Los expedientes [ENTORNO_DESARROLLO.md](ENTORNO_DESARROLLO.md) e [INVENTARIO_REPOSITORIO.md](INVENTARIO_REPOSITORIO.md) se conservan como descripciones del entorno/local y su inventario histórico; no son evidencia de pruebas COM ni sustituyen los veinte documentos.
 
+La [auditoría técnica del pack base](audit/README.md) incorpora la inspección local de los 110 paquetes, datos exportables y ocho expedientes complementarios. La evidencia estática está ejecutada; no certifica instalación, compatibilidad in-game ni permisos de redistribución completos.
+
 ## Los veinte documentos del proyecto
 
 - [Contexto maestro y estado del proyecto](plan/01_CONTEXTO_MAESTRO.md)

@@ -35,3 +35,9 @@ No preguntar de nuevo decisiones A/B/C ya resueltas. Si aparece una discrepancia
 
 ## Criterio de entrega a agentes
 Una tarea de implementación debe citar objetivo, alcance, precondiciones, invariantes Vanilla+, archivos admitidos, contratos de datos, tests, logs y rollback. Pedir commit/PR y resumen español con evidencias, no mera afirmación de éxito.
+
+## Evidencia complementaria: auditoría del pack base (2026-10-10)
+
+La [auditoría local de 110 paquetes](../audit/README.md) completa hashes, lectura de manifiestos y catálogos comunitarios, dependencias declaradas y detección estática de solapamientos. Los [ocho expedientes](../audit/README.md#expedientes) complementan el diseño sin certificar los casos del motor ni congelar el pack.
+
+Antes de integrar referencias: resolver el XML inválido de Kill And Attack Notifications Extended, elegir un proveedor por ID repetido, revisar la sustitución UIX/Star Command y cerrar permisos por artefacto. Conversation Pagination bloquea únicamente el laboratorio de Player Feudal Realm. El índice local actual solo registra catálogos base; verificar DLC al investigar IDs y recetas terranas. Preparar la baseline y estrategia mínima de UI mantiene **V5.7 estación real** como siguiente incremento.

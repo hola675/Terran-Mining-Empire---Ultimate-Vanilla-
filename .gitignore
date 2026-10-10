@@ -26,6 +26,8 @@ desktop.ini
 .DS_Store
 .idea/
 .vscode/
+__pycache__/
+*.py[cod]
 # Residuos locales del entorno anterior, pendientes de retirada del equipo
 /.venv/
 /.claude/

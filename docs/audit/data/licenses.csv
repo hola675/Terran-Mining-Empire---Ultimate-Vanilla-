@@ -1,0 +1,92 @@
+package,root,path,sha256,markers,redistribution
+inputs/mods/all_ships_with_filters_8.00.03.zip 2094 8.00.03 2026-06-18T17-08Z EfJtJXqeI.zip,all_ships_with_filters,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/all_ships_with_filters_8.00.03.zip 2094 8.00.03 2026-06-18T17-08Z EfJtJXqeI.zip,all_ships_with_filters,README.md,dcb4c20ac21b7c1c6c61f35eb44e6b88b4623b148291e91966acd76d99a86841,[],NOT_REVIEWED
+inputs/mods/all_ships_with_filters_8.00.03.zip 2094 8.00.03 2026-06-18T17-08Z EfJtJXqeI.zip,all_ships_with_filters,README.md,dcb4c20ac21b7c1c6c61f35eb44e6b88b4623b148291e91966acd76d99a86841,[],NOT_REVIEWED
+inputs/mods/Arck Shipyard Filters 2410 1 2026-09-27T19-21Z nTFUFDuAm.zip,arck_shipyard_filters,LICENSE,2aa40d7bd78e1e853ae33033167ad84de80835fb20cd56425881128b76e930f3,[],NOT_REVIEWED
+inputs/mods/dock_queue_indicator_1.00.zip 2430 1.00 2026-10-06T21-02Z kslDldtEm.zip,dock_queue_indicator,LICENSE,1deb29e5b6a72d0c275a44a8c8e405432169d314bebf2cca0015d3f996218926,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/dock_queue_indicator_1.00.zip 2430 1.00 2026-10-06T21-02Z kslDldtEm.zip,dock_queue_indicator,README.md,795bb4c8cc3cfcefbb2de2c828deb1b7cdfdf130c4dade709f3a8ea3d6d870ef,[],NOT_REVIEWED
+inputs/mods/dock_queue_indicator_1.00.zip 2430 1.00 2026-10-06T21-02Z kslDldtEm.zip,dock_queue_indicator,README.md,795bb4c8cc3cfcefbb2de2c828deb1b7cdfdf130c4dade709f3a8ea3d6d870ef,[],NOT_REVIEWED
+inputs/mods/Don't Ignore Blacklists - AnotherExplorerPatch 1938 106 2026-09-25T20-35Z XqjfjxPp8.7z,don't_ignore_blacklists,README.txt,94b01da2d923fbdc0c4c24f3ed8f82a1065e8738c064a647e0f250c6bf05762d,[],NOT_REVIEWED
+inputs/mods/Dont_ignore_blacklists 1938 106 2026-09-25T20-55Z SoVbVU5Wt.7z,don't_ignore_blacklists,README.txt,b28b967a72eb504bc9b7604e78e6ad79d426b078948c6c6d779a4215d6f2644a,[],NOT_REVIEWED
+inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,enhanced_info_center,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,enhanced_info_center,README.md,e85d0c80908ffa0e62a69f6a606e50c1bbaec964f2942c6d9090e9ee8c284360,[],NOT_REVIEWED
+inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,enhanced_info_center,README.md,e85d0c80908ffa0e62a69f6a606e50c1bbaec964f2942c6d9090e9ee8c284360,[],NOT_REVIEWED
+inputs/mods/Freeq's Paintjobs-233-1-20-1616376741.7z,z_freeqspaintjobs,readme.txt,379339a4492e08a0f5fb02554a1982d3c448d980a68448eb396db154398feb9f,[],NOT_REVIEWED
+inputs/mods/gate_manage_api_1.01.zip 1856 1.02 2026-09-08T09-37Z 8Hc2cyv2N.zip,gate_manage_api,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/gate_manage_api_1.01.zip 1856 1.02 2026-09-08T09-37Z 8Hc2cyv2N.zip,gate_manage_api,README.md,e01d38ecf8990cea84b9027bc1451e370ce3c003fea42b389828567b7f06c248,[],NOT_REVIEWED
+inputs/mods/gate_manage_api_1.01.zip 1856 1.02 2026-09-08T09-37Z 8Hc2cyv2N.zip,gate_manage_api,README.md,e01d38ecf8990cea84b9027bc1451e370ce3c003fea42b389828567b7f06c248,[],NOT_REVIEWED
+inputs/mods/GHOSTaus Sector Explorer 2.0 2382 2.14 2026-10-05T10-15Z gZEBEIlL7.zip,ghost_explorer,LICENSE.txt,b09549aa536ce91c26ca54d1f87b44825f3aa2b893ff261190d9e8312296a9bf,[],NOT_REVIEWED
+inputs/mods/GHOSTaus Sector Explorer 2.0 2382 2.14 2026-10-05T10-15Z gZEBEIlL7.zip,ghost_explorer,README.txt,eff752b86f4e35b956cb2cd8caccf472542a36bc1cc3ed74b246038e393ae379,[],NOT_REVIEWED
+inputs/mods/hotkey_api_8.00.09.zip 2181 8.00.09 2026-08-09T14-06Z XqjfjxP2f.zip,hotkey_api,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/hotkey_api_8.00.09.zip 2181 8.00.09 2026-08-09T14-06Z XqjfjxP2f.zip,hotkey_api,README.md,97d31ce8a8c50fdce38eaecdf1dcbbeea29554a6f90030599f2112f5cb1d8989,[],NOT_REVIEWED
+inputs/mods/hotkey_api_8.00.09.zip 2181 8.00.09 2026-08-09T14-06Z XqjfjxP2f.zip,hotkey_api,README.md,97d31ce8a8c50fdce38eaecdf1dcbbeea29554a6f90030599f2112f5cb1d8989,[],NOT_REVIEWED
+inputs/mods/Inix Gate Network Control 2319 4.0.1 2026-09-08T19-18Z q1GLGP2LK.zip,inix_gate_network_control,README.txt,f48f701b9e4a888095885d4fa02b52f4bf79263f293cc73750c9c982595ebda7,[],NOT_REVIEWED
+inputs/mods/kuda_ai_tweaks 839 9.0.0.6 2026-06-29T13-40Z YwOaOVnHF.rar,da_ku_ai_tweaks,README.md,b7ba8a6fbabaf49dadd945a30ad966beabef44854bdb8c19980844aaac999595,[],NOT_REVIEWED
+inputs/mods/Kuertee Emergent Missions 780 9.0.0.16 2026-10-06T04-05Z sgzuztIfC.zip,kuertee_emergent_missions,kuertee-emergent-missions-readme.txt,c19ba3d41c490079de28529559f0d8ba1f3c9fa51efc361632716d8ec05bcde8,[],NOT_REVIEWED
+inputs/mods/Kuertee UI Extensions 552 9.0.0.16 2026-10-06T04-24Z CxHXHGK0A.zip,kuertee_ui_extensions,ui/addons/ego_detailmonitor/menu_trader_blueprintsorlicences.xpl,f5ecdaf9a450b4b3ac4ddbebe5e619750ba3e57b9b3ae64409e0a9d0c14248f1,[],NOT_REVIEWED
+inputs/mods/Kuertee UI Extensions 552 9.0.0.16 2026-10-06T04-24Z CxHXHGK0A.zip,kuertee_ui_extensions,kuertee-ui-extensions-readme.txt,eb6ae00979747f281677c72f2c621f739d4d90d48bbe8f0f6ad05d270e02af0b,[],NOT_REVIEWED
+inputs/mods/Kuertee UI Extensions 552 9.0.0.16 2026-10-06T04-24Z CxHXHGK0A.zip,kuertee_ui_extensions,README.md,eb6ae00979747f281677c72f2c621f739d4d90d48bbe8f0f6ad05d270e02af0b,[],NOT_REVIEWED
+inputs/mods/Kuertee UI Extensions 552 9.0.0.16 2026-10-06T04-24Z CxHXHGK0A.zip,kuertee_ui_extensions,ui/addons/ego_detailmonitor/menu_trader_blueprintsorlicences.xpl,f5ecdaf9a450b4b3ac4ddbebe5e619750ba3e57b9b3ae64409e0a9d0c14248f1,[],NOT_REVIEWED
+inputs/mods/kuertee_crime_has_consequences 566 9.0.0.16.1 2026-10-06T04-01Z eX2E2CxGI.zip,kuertee_crime_has_consequences,kuertee-crime-has-consequences-readme.txt,31097dc583aad06fd5796e3667bf4c91fb40c8c51d7861a5b8aa59669bde9ff2,[],NOT_REVIEWED
+inputs/mods/kuertee_npc_reactions 497 9.0.0.6 2026-06-29T13-53Z DuWTWsgAf.zip,kuertee_npc_reactions,kuertee-npc-reactions-readme.txt,baa397ce08c4ae79d45e818501c8967ee0b732faac82094703bfe485edf8c54f,[],NOT_REVIEWED
+inputs/mods/kuertee_ui_trade_analytics 764 9.0.0.10 2026-07-29T07-53Z HMhjhviNW.zip,kuertee_ui_trade_analytics,kuertee-trade-analytics-readme.txt,2781c619a28aa35088030131cb02d564c494e88a77c0971278182845ac5e89e4,[],NOT_REVIEWED
+inputs/mods/kuertee_wear_and_tear 523 9.0.0.16 2026-10-06T04-22Z P20108HyX.zip,kuertee_wear_and_tear,kuertee-wear-and-tear-readme.txt,0dbf00012ee7325dc6133badf78d89129a8f0f91866e266680ddac93ebfb831c,[],NOT_REVIEWED
+inputs/mods/mimic_repeat_orders_2.00.zip 1875 2.00 2026-06-27T20-12Z sgzuztIJT.zip,mimic_repeat_orders,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/mimic_repeat_orders_2.00.zip 1875 2.00 2026-06-27T20-12Z sgzuztIJT.zip,mimic_repeat_orders,README.md,5aa3d56c64a7ccb1c0000efd6d05b51801b008e581024c16d0c2e4e34ddeae53,[],NOT_REVIEWED
+inputs/mods/mimic_repeat_orders_2.00.zip 1875 2.00 2026-06-27T20-12Z sgzuztIJT.zip,mimic_repeat_orders,README.md,5aa3d56c64a7ccb1c0000efd6d05b51801b008e581024c16d0c2e4e34ddeae53,[],NOT_REVIEWED
+inputs/mods/mining_in_sector_2.01.zip for X4 9.00 1880 2.01 2026-07-09T22-02Z pAoio7adF.zip,mining_in_sector,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/mining_in_sector_2.01.zip for X4 9.00 1880 2.01 2026-07-09T22-02Z pAoio7adF.zip,mining_in_sector,README.md,8b1dcef2da30473b75c574bfa90b98191fa84b8a8bb0d104fdb2c300bcbd0914,[],NOT_REVIEWED
+inputs/mods/mining_in_sector_2.01.zip for X4 9.00 1880 2.01 2026-07-09T22-02Z pAoio7adF.zip,mining_in_sector,README.md,512191b47c4facf7afda3136323abcbaca78d0d9c2bdaf8c7dc08357fd435ebe,[],NOT_REVIEWED
+inputs/mods/notifications_on_map_9.00.07.zip 2103 9.00.07 2026-09-01T15-36Z sgzuztIz1.zip,notifications_on_map,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/notifications_on_map_9.00.07.zip 2103 9.00.07 2026-09-01T15-36Z sgzuztIz1.zip,notifications_on_map,README.md,0c5c1c823d6ff7af001e84f9b5072f4e992784c7d46bd7f87b204554c15b5ac8,[],NOT_REVIEWED
+inputs/mods/notifications_on_map_9.00.07.zip 2103 9.00.07 2026-09-01T15-36Z sgzuztIz1.zip,notifications_on_map,README.md,0c5c1c823d6ff7af001e84f9b5072f4e992784c7d46bd7f87b204554c15b5ac8,[],NOT_REVIEWED
+inputs/mods/options_helper_1.10.zip 2089 1.10 2026-06-20T19-43Z oNn3n5RLp.zip,options_helper,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/options_helper_1.10.zip 2089 1.10 2026-06-20T19-43Z oNn3n5RLp.zip,options_helper,README.md,82da05c312acac3065780983949322239d4dd01a01a52c551f2590ba706c25d0,[],NOT_REVIEWED
+inputs/mods/options_helper_1.10.zip 2089 1.10 2026-06-20T19-43Z oNn3n5RLp.zip,options_helper,README.md,c6b5e2c91726bdb6b2a296500188eb7917ff81b61cadc04fc8b261f25737f668,[],NOT_REVIEWED
+inputs/mods/print_extension_list_1.01.zip 2191 1.01 2026-07-31T18-52Z K8iPi4ySc.zip,print_extension_list,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/print_extension_list_1.01.zip 2191 1.01 2026-07-31T18-52Z K8iPi4ySc.zip,print_extension_list,README.md,0bcc5257ad8885c98a380edc7b86d4f95bbfc5494f885e5193c96c806a4b390e,[],NOT_REVIEWED
+inputs/mods/print_extension_list_1.01.zip 2191 1.01 2026-07-31T18-52Z K8iPi4ySc.zip,print_extension_list,README.md,0bcc5257ad8885c98a380edc7b86d4f95bbfc5494f885e5193c96c806a4b390e,[],NOT_REVIEWED
+inputs/mods/production_stations_tab_8.00.05.zip-2052-8-00-5-1777153214.zip,production_stations_tab,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/production_stations_tab_8.00.05.zip-2052-8-00-5-1777153214.zip,production_stations_tab,README.md,52548157bcd6df99b5bbf2028b36394880244467294d31edefbeafc9926dd5cf,[],NOT_REVIEWED
+inputs/mods/production_stations_tab_8.00.05.zip-2052-8-00-5-1777153214.zip,production_stations_tab,README.md,52548157bcd6df99b5bbf2028b36394880244467294d31edefbeafc9926dd5cf,[],NOT_REVIEWED
+inputs/mods/Prospect Missions V1.0.1 2192 1.0.1 2026-06-26T19-13Z 2j4J4HMez.zip,prospect_missions,README.md,0b20a4cbba9e9eb4d69b93376abf8dc53b0a5d11439afcccafbd916079c656f9,[],NOT_REVIEWED
+inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip,rescuerangers,LICENSE,25027747cb17f81130b805a910e33b6bd4ab99df15b76dc30f90aea37b26a6eb,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip,rescuerangers,README.md,e075b25c82beec57240b1da40636a9335ed8c2507b1ccea6a2be753636c37003,[],NOT_REVIEWED
+inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip,rescuerangers,README.md,e075b25c82beec57240b1da40636a9335ed8c2507b1ccea6a2be753636c37003,[],NOT_REVIEWED
+inputs/mods/sn_mod_support_apis_v1.95.zip-503-1-95-1765186600.zip,sn_mod_support_apis,readme.txt,7b51206a4348c2ed9ae1761eea9c4099e2f7824bcaf6e6d230102ebda36ead74,[],NOT_REVIEWED
+inputs/mods/Station Budget Watchdog 2161 1.0.1 2026-07-28T18-58Z pAoio7ar5.zip,vas_station_budget_watchdog,LICENSE,d3beb96494db2512bfbb1692f7addbe4c79d087240f2d5db7c2cfb2b05551504,['MIT marker'],NOT_REVIEWED
+inputs/mods/station_production_overview_9.00.10.zip 2049 9.00.10 2026-06-18T17-25Z VnBwBmDrL.zip,station_production_overview,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/station_production_overview_9.00.10.zip 2049 9.00.10 2026-06-18T17-25Z VnBwBmDrL.zip,station_production_overview,README.md,a781a01ddd0f2a96caa798c59311ffc87236069480d9d4359a264d415e174f2f,[],NOT_REVIEWED
+inputs/mods/station_production_overview_9.00.10.zip 2049 9.00.10 2026-06-18T17-25Z VnBwBmDrL.zip,station_production_overview,README.md,a781a01ddd0f2a96caa798c59311ffc87236069480d9d4359a264d415e174f2f,[],NOT_REVIEWED
+inputs/reference/mods/Arck Job Registry 2113 1.2.0 2026-07-27T13-27Z b3w9woNce.zip,arck_job_registry,LICENSE,c8e9c7feb2deafde07c1c0be2153f4dae3f9e8c02fb6f6be73a0fd55cbd19795,[],NOT_REVIEWED
+inputs/reference/mods/Arck Job Registry 2113 1.2.0 2026-07-27T13-27Z b3w9woNce.zip,arck_job_registry,Readme.md,f3a2efaa353b71f57ce7c5f38f29465248a557c4fda9cde51b125f007b90ffb4,[],NOT_REVIEWED
+inputs/reference/mods/Fleet and Station Procurement Manager 2360 3.10.12 2026-09-24T19-40Z YwOaOVnI3.zip,fleet_procurement_manager,readme.txt,2b78a09f76dc89db0291b6caba4213144c829d366836d40d402466baa2444e19,[],NOT_REVIEWED
+inputs/reference/mods/GHOSTau's Station Planner Designer and Optimiser 2281 2.81 2026-10-02T11-42Z XqjfjxPkR.zip,x4ep_planner,LICENSE.txt,42008a0ec980a5902662b64c58fce10e5633003b7a26614f0b33002f1bb6cdf8,[],NOT_REVIEWED
+inputs/reference/mods/GHOSTau's Station Planner Designer and Optimiser 2281 2.81 2026-10-02T11-42Z XqjfjxPkR.zip,x4ep_planner,README.txt,96cdb9d8b430554c3e8e468ff5318a07d8f863cf3461390334218a7281b6d7e6,['custom restriction marker'],NOT_REVIEWED
+inputs/reference/mods/Map Sidebar Organizer 2368 1 2026-09-08T21-33Z JC8e8jGeV.zip,map_sidebar_organizer,README.md,9a6703e311bdd2f1d5f20c0ddc2f35ee88ee310d9a4504e5e3b80b4e40d19771,[],NOT_REVIEWED
+inputs/reference/mods/ships_trade_analyzer_1.01.zip 2320 1.01 2026-09-13T13-52Z LQxlx1JD1.zip,ships_trade_analyzer,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/reference/mods/ships_trade_analyzer_1.01.zip 2320 1.01 2026-09-13T13-52Z LQxlx1JD1.zip,ships_trade_analyzer,README.md,a8683a514e7bdb8187e56bf432fd33ea445ec93260bbfd288d282ac87396deca,[],NOT_REVIEWED
+inputs/reference/mods/ships_trade_analyzer_1.01.zip 2320 1.01 2026-09-13T13-52Z LQxlx1JD1.zip,ships_trade_analyzer,README.md,0e40cfa0bcebed4fb6a3f71efb617686a965a61b2adb46f484ef2c05f4695359,[],NOT_REVIEWED
+inputs/reference/mods/Tatertrade V8.0.2 2246 8.0.2 2026-08-01T03-27Z ic303A6VJ.zip,tatertrade,LICENSE,3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986,"['GPL marker', 'custom restriction marker']",NOT_REVIEWED
+inputs/reference/mods/Tatertrade V8.0.2 2246 8.0.2 2026-08-01T03-27Z ic303A6VJ.zip,tatertrade,README.md,8fc3a656d1c5a21d3df4d1416e846582762f3b0267327f9a3baabdb2bed65f69,[],NOT_REVIEWED
+inputs/reference/mods/X4-GateManageAPI-main.zip,X4-GateManageAPI-main,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/reference/mods/X4-GateManageAPI-main.zip,X4-GateManageAPI-main,README.md,d86080d5658213c53b41e78675a81895600a7de3d2fca5b6b5cc33585106c855,[],NOT_REVIEWED
+inputs/reference/mods/X4-GateManageAPI-main.zip,X4-GateManageAPI-main,docs/README.egosoft,2c726158b1ec398898bc9889c0cc1570def0748d5174b536462b1066da21b46f,[],NOT_REVIEWED
+inputs/reference/mods/X4-GateManageAPI-main.zip,X4-GateManageAPI-main,docs/README.nexus,383fd59d783d8884a40328ae576a8a17fa41fa44e092f6efd857c19e5ccd984a,[],NOT_REVIEWED
+inputs/reference/mods/X4-GateManageAPI-main.zip,X4-GateManageAPI-main,docs/README.steam,be5f7a61b07d9e809e5d2b9ce8a96d80404f73fb5da0e16cd4e392b227023d00,[],NOT_REVIEWED
+inputs/reference/mods/X4-HotKeyAPI-main.zip,X4-HotKeyAPI-main,LICENSE,1deb29e5b6a72d0c275a44a8c8e405432169d314bebf2cca0015d3f996218926,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/reference/mods/X4-HotKeyAPI-main.zip,X4-HotKeyAPI-main,README.md,2c5c80f80ce8d179412298e99af7a8738a45f5b072941cbca64e2bf673f30cfb,[],NOT_REVIEWED
+inputs/reference/mods/X4-HotKeyAPI-main.zip,X4-HotKeyAPI-main,docs/README.egosoft,42932bbb6ae7e1b380a83d44929596156035efb2c649e9d49fbb7d82afebb8d1,[],NOT_REVIEWED
+inputs/reference/mods/X4-HotKeyAPI-main.zip,X4-HotKeyAPI-main,docs/README.nexus,421e668fb8fa417fe17837346b3c8f1970c35440031d51a31e683bbc6f296dc6,[],NOT_REVIEWED
+inputs/reference/mods/X4-HotKeyAPI-main.zip,X4-HotKeyAPI-main,docs/README.steam,af5839f62f7ecd1088e89863fd3513b38fe04693900b69014a87f4b88ce43024,[],NOT_REVIEWED
+inputs/reference/mods/x4-mod-da-ku-ai-tweaks-master.zip,x4-mod-da-ku-ai-tweaks-master,README.md,74f152e017cf68f6078b444210a6de884b6e66aded7a6404293912dfad5f6d34,[],NOT_REVIEWED
+inputs/reference/mods/x4-mod-ui-extensions-master.zip,x4-mod-ui-extensions-master,ui/addons/ego_detailmonitor/menu_trader_blueprintsorlicences.xpl,f5ecdaf9a450b4b3ac4ddbebe5e619750ba3e57b9b3ae64409e0a9d0c14248f1,[],NOT_REVIEWED
+inputs/reference/mods/x4-mod-ui-extensions-master.zip,x4-mod-ui-extensions-master,README.md,527d7eff4689a7a6059b5c0552608cc6270e0f275dc61105dbf3a741d74978ff,[],NOT_REVIEWED
+inputs/reference/mods/x4-mod-ui-extensions-master.zip,x4-mod-ui-extensions-master,kuertee-ui-extensions-readme.txt,527d7eff4689a7a6059b5c0552608cc6270e0f275dc61105dbf3a741d74978ff,[],NOT_REVIEWED
+inputs/reference/mods/x4-mod-ui-extensions-master.zip,x4-mod-ui-extensions-master,ui/addons/ego_detailmonitor/menu_trader_blueprintsorlicences.xpl,f322c4daa2e4eb15954a71d105924c59515a3202c4f66d6a5870215f6d08c3f6,[],NOT_REVIEWED
+inputs/reference/mods/x4-projects-master.zip,x4-projects-master/extensions/sn_better_target_monitor,Readme.md,e11aef65f24a416c8d86f21e5a27f58ff26531786ce17333326fb0018efed001,[],NOT_REVIEWED
+inputs/reference/mods/x4-projects-master.zip,x4-projects-master/extensions/sn_extra_game_options,Readme.md,8f2d12b8a66534ccc77919cef0953d050b6df76843b656f5b9f0f5d51ce06afd,[],NOT_REVIEWED
+inputs/reference/mods/x4-projects-master.zip,x4-projects-master/extensions/sn_hotkey_collection,Readme.md,bcbb48134cc53de20e28ffbc6ab62ea48fc25954a0d188e8d6628c7fcfe49545,[],NOT_REVIEWED
+inputs/reference/mods/x4-projects-master.zip,x4-projects-master/extensions/sn_mod_support_apis,Readme.md,fe16ad7820050fc21d6686ed06c3dcbb117463f931dce4d84bc99038419d798c,[],NOT_REVIEWED
+inputs/reference/mods/x4-projects-master.zip,x4-projects-master/extensions/sn_script_profiler,readme.md,61dcc7da53cca9183aede8032972a76b5243e5c42bcfda6159e885a81b7fe6ab,[],NOT_REVIEWED
+inputs/reference/mods/x4-warehouse-fleets-master.zip,x4-warehouse-fleets-master,readme.md,9a125194b3c6ec80b6d1dceeed7a9af57b13d6d666fbebacb0458a7a8cea2e04,[],NOT_REVIEWED

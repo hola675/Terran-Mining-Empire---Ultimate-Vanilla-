@@ -56,3 +56,11 @@ El X Catalog Tool oficial de Egosoft (versión 1.11) es otra opción para operar
 ## Enlace con la especificación V5.7 (2026-10-10)
 
 La [documentación canónica de veinte temas](README.md) recoge las decisiones de Terran Mining Empire y el próximo prototipo **COM-01/V5.7**, que observará una estación real y su almacenamiento sin modificar economía u órdenes. Los recursos descritos arriba siguen siendo datos del entorno local documentado, no una certificación ejecutada desde GitHub. El código fuente propio y los ensayos en el motor siguen pendientes.
+
+## Comprobación local del pack (2026-10-10)
+
+La [auditoría técnica](audit/README.md) leyó los 110 archivos, incluidos RAR con UnRAR 7.01 instalado y 7Z con py7zr 1.1.3 aislado en `workspace/audit-pack-base/vendor`. No se ejecutaron los programas de herramientas descargados. Forge conserva `node_modules` y `dist`; su compilación no se repitió. La CLI x4cat respondió a la consulta de ayuda, sin reconstruir el índice.
+
+El archivo `version.dat` declara `900` y `X4.exe` informa versión 9.0.0.0. El log existente del 2026-10-09 identifica build **611726** y registra un prototipo TME con errores de `TME_Kernel`; ese antecedente no localiza su fuente actual ni acredita V5.7. En las carpetas inspeccionadas del juego y del perfil hay siete DLC con manifiesto `900`, sin mods comunitarios presentes. El perfil mantiene entradas antiguas de SW Interworlds/Friendly Fire Tweaks y `uisafemode=false`; falta registrar la lista cargada en una nueva ejecución.
+
+El SQLite tiene 461.598 filas `game_files`, 8.890 filas `schema_groups` y 2.333 `script_properties`. Sus nueve registros `cat_files` apuntan únicamente a `01.cat`–`09.cat` del juego base. No usar ese índice como prueba de cobertura de DLC: la auditoría leyó además los índices de catálogos de los siete DLC, 30 catálogos en total con el juego base. Las consultas de recursos terranos requieren incluir explícitamente ese ámbito. Los detalles y hashes se conservan en [summary.json](audit/data/summary.json).

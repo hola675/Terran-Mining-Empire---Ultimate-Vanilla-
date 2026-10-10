@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-10T20:35:23.308181+00:00",
+  "script_sha256": "e2786fc6ee7669a3d116553bd8799c5f069ec615f5dddb107551147f7b836e0d",
+  "summary": {
+    "archives": 110,
+    "archive_formats": {
+      "ZIP": 100,
+      "RAR": 4,
+      "7Z": 6
+    },
+    "archive_status": {
+      "READ": 110
+    },
+    "extension_manifests": 129,
+    "distinct_extension_ids": 122,
+    "catalog_status": {
+      "VERIFIED_DAT": 46
+    },
+    "catalog_entries": 24703,
+    "xml_parse_errors": 1,
+    "dependency_states": {
+      "NOMINAL_VERSION_OK": 178,
+      "NOT_FOUND": 8,
+      "UNVERIFIED_ATTRIBUTE": 8,
+      "UNKNOWN_VERSION": 2
+    },
+    "overlap_risks": {
+      "DIFF_OVERLAP_REVIEW": 97,
+      "SAME_ID_ALTERNATIVES": 81,
+      "SHARED_PATH_REVIEW": 208,
+      "TEXT_IDS_REVIEW": 17,
+      "REPLACEMENT_REVIEW": 1
+    },
+    "breaking_900_hits": 1,
+    "proposed_roles": {
+      "REFERENCE": 75,
+      "OPTIONAL_CANDIDATE": 12,
+      "LAB": 8,
+      "QUARANTINE": 1,
+      "CONDITIONAL_CORE": 2,
+      "TOOL_REFERENCE": 12
+    }
+  },
+  "environment": {
+    "game_directory": "D:\\Games\\X4 Foundations",
+    "profile_directory": "C:\\Users\\Admin\\Documents\\Egosoft\\X4\\6144",
+    "game_version": "900",
+    "installed": [
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_boron\\content.xml",
+        "sha256": "915c9a1a6aa68937c3393b309533d8824a73af752d409976110d3e7f72e484dc",
+        "attributes": {
+          "id": "ego_dlc_boron",
+          "version": "900",
+          "name": "Kingdom End",
+          "author": "Egosoft GmbH",
+          "date": "2023-04-12",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "600"
+          },
+          {
+            "id": "ego_dlc_split",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_terran",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_pirate",
+            "version": "100",
+            "optional": "true"
+          }
+        ]
+      },
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_01\\content.xml",
+        "sha256": "9f4af092927492e21b98ad32399b9e664cbbcb202aef64ba22cc1dc43be90a19",
+        "attributes": {
+          "id": "ego_dlc_mini_01",
+          "version": "900",
+          "name": "Hyperion Pack",
+          "author": "Egosoft GmbH",
+          "date": "2025-02-13",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "750"
+          },
+          {
+            "id": "ego_dlc_split",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_terran",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_pirate",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_boron",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_timelines",
+            "version": "100",
+            "optional": "true"
+          }
+        ]
+      },
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_02\\content.xml",
+        "sha256": "78be13c7272edfab54c24e5bdf582ff443c5ef50e203cda9b6939d25f4fecafa",
+        "attributes": {
+          "id": "ego_dlc_mini_02",
+          "version": "900",
+          "name": "Envoy Pack",
+          "author": "Egosoft GmbH",
+          "date": "2025-09-10",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "800"
+          },
+          {
+            "id": "ego_dlc_split",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_terran",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_pirate",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_boron",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_timelines",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_mini_01",
+            "version": "100",
+            "optional": "true"
+          }
+        ]
+      },
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_pirate\\content.xml",
+        "sha256": "7c1b0020316f688c7b71bf9f1245c49396a80ff99eb6a6f187677104f2f8f17d",
+        "attributes": {
+          "id": "ego_dlc_pirate",
+          "version": "900",
+          "name": "Tides of Avarice",
+          "author": "Egosoft GmbH",
+          "date": "2022-03-14",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "600"
+          },
+          {
+            "id": "ego_dlc_split",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_terran",
+            "version": "100",
+            "optional": "true"
+          }
+        ]
+      },
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_split\\content.xml",
+        "sha256": "ff07fd62526ddf7861a8ea6e244c011f7003ebfc049a602dc6f41450d0efd23a",
+        "attributes": {
+          "id": "ego_dlc_split",
+          "version": "900",
+          "name": "Split Vendetta",
+          "author": "Egosoft GmbH",
+          "date": "2020-03-31",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "600"
+          }
+        ]
+      },
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_terran\\content.xml",
+        "sha256": "0c3b9979cc44524ef996a31c9bd27b4157e64e89e00a249718f4dea5e1080a09",
+        "attributes": {
+          "id": "ego_dlc_terran",
+          "version": "900",
+          "name": "Cradle of Humanity",
+          "author": "Egosoft GmbH",
+          "date": "2021-03-16",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "600"
+          },
+          {
+            "id": "ego_dlc_split",
+            "version": "100",
+            "optional": "true"
+          }
+        ]
+      },
+      {
+        "location": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_timelines\\content.xml",
+        "sha256": "828e56b0da02ecc14d63314b7ce6860f9877427554a40d25a47abb02a13558d4",
+        "attributes": {
+          "id": "ego_dlc_timelines",
+          "version": "900",
+          "name": "Timelines",
+          "author": "Egosoft GmbH",
+          "date": "2024-06-20",
+          "enabled": "1",
+          "save": "1"
+        },
+        "dependencies": [
+          {
+            "version": "700"
+          },
+          {
+            "id": "ego_dlc_split",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_terran",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_pirate",
+            "version": "100",
+            "optional": "true"
+          },
+          {
+            "id": "ego_dlc_boron",
+            "version": "100",
+            "optional": "true"
+          }
+        ]
+      }
+    ],
+    "profile_overrides": [
+      {
+        "id": "SW Interworlds",
+        "enabled": "true"
+      },
+      {
+        "id": "kuerteeFriendlyFireTweaks",
+        "enabled": "false"
+      }
+    ],
+    "limitations": [
+      "No game launched; no save inspected; enabled in content.xml is not runtime confirmation."
+    ],
+    "version_sha256": "2796d6c06203255d4ebfe961445c8e64c8378a34576da6516eb2101be1f28a71",
+    "profile_content_sha256": "94d9186140ee173397528d7fba298f6cadf9d26b1f8cf4c5a094c8a750212fd6",
+    "uisafemode": "false",
+    "historical_log": {
+      "path": "C:\\Users\\Admin\\Documents\\Egosoft\\X4\\6144\\debuglog.txt",
+      "sha256": "4addf2b462aa00bbfe0f03724aef2aeb84d4adf43498d9baafc52d7d2c64d50e",
+      "started": "Logfile started, time Fri Oct 09 11:51:21 2026",
+      "builds": [
+        "611726"
+      ],
+      "tme_mentioned": true,
+      "tme_kernel_errors": 7,
+      "status": "HISTORICAL_ONLY"
+    },
+    "index_tables": [
+      "meta",
+      "cat_files",
+      "macros",
+      "components",
+      "wares",
+      "ware_owners",
+      "macro_properties",
+      "translation_pages",
+      "translations",
+      "game_files",
+      "schema_elements",
+      "schema_attributes",
+      "schema_enumerations",
+      "schema_groups",
+      "script_datatypes",
+      "script_keywords",
+      "script_properties"
+    ],
+    "index_counts": {
+      "meta": 1,
+      "cat_files": 9,
+      "macros": 2914,
+      "components": 2957,
+      "wares": 1397,
+      "ware_owners": 1975,
+      "macro_properties": 22237,
+      "translation_pages": 473,
+      "translations": 71508,
+      "game_files": 461598,
+      "schema_elements": 15606,
+      "schema_attributes": 740,
+      "schema_enumerations": 677,
+      "schema_groups": 8890,
+      "script_datatypes": 171,
+      "script_keywords": 87,
+      "script_properties": 2333
+    }
+  },
+  "baseline": {
+    "catalogs": [
+      {
+        "path": "D:\\Games\\X4 Foundations\\01.cat",
+        "sha256": "19dc39d09df318e6a3fb39c17a04d94032d2562c8a8ff13f86da18fe75cfc662",
+        "entries": 90977
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\02.cat",
+        "sha256": "07fb9a038d740ed9b3f8f27e2f6e02c0fd98b610bacd045593355cb63c699cd8",
+        "entries": 2335
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\03.cat",
+        "sha256": "f0ccdca99749f181a2dd95442af8382b53d4e48925ac1e04e1c68623251da4c5",
+        "entries": 371276
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\04.cat",
+        "sha256": "d85d1a5f46bfd838b0c1ccebe00053539824cef00ce50a432846e097974b7ce5",
+        "entries": 125
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\05.cat",
+        "sha256": "bb8bf0a548156299c2ee98ef707894a107c75ed893469a5ff674c1d623a3ba96",
+        "entries": 4396
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\06.cat",
+        "sha256": "b1e3eb63f229616fcc98df0ec6c510ffd97330a63e562562332dd511276ec488",
+        "entries": 616
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\07.cat",
+        "sha256": "f795899c70207a46f225091f193d753ea53e47a61fcb9920ab6a5a86b94c5ba9",
+        "entries": 394
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\08.cat",
+        "sha256": "68c2bbd6d21b4147feb8e1d6e2b401e3a2756942973e63e38efa7c62d652da5c",
+        "entries": 908
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\09.cat",
+        "sha256": "ccd6e94ffe5c71c43b05f5b4ec35b8e17ce06b93fdb70b2bc658fc260f554397",
+        "entries": 16
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_boron\\ext_01.cat",
+        "sha256": "11340773e845ef6a7d9944ca9ef3929c9cd66ac5d9d0ae3cd53fc94a0f6c704e",
+        "entries": 8722
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_boron\\ext_02.cat",
+        "sha256": "ea6e95ee34eaf1bab86c2b7aecff62c5feba6f577adee6fd85293f0d62e87f77",
+        "entries": 228
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_boron\\ext_03.cat",
+        "sha256": "a3fa35f3978b985da6799837850dfac11ed41277e42ca9f153f5ac7e94c64415",
+        "entries": 89
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_01\\ext_01.cat",
+        "sha256": "9850287753917fc4399dfaf9b62309728f279387028410994d0dc63a2db97956",
+        "entries": 530
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_01\\ext_02.cat",
+        "sha256": "8b9ee55aad8f7eecc6561edfc530a62ab6eca35b7accd3fc6fcb5f0f770bbdfe",
+        "entries": 23
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_01\\ext_03.cat",
+        "sha256": "e6d74da27195d83cdfd2e5ac91d5dec42a5590edb8a335eec74072fb0ad6ef4f",
+        "entries": 38
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_02\\ext_01.cat",
+        "sha256": "bcf23284e755c0d0914653124087a2d5556cc7f3a7ca41ba2bc63ad41b20efa8",
+        "entries": 1311
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_02\\ext_02.cat",
+        "sha256": "8a38d8f2a4b5b562cdc3800ff5f35f9190675e1e31e1fd44deaf5381258600fd",
+        "entries": 63
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_mini_02\\ext_03.cat",
+        "sha256": "70bc6d461dfedd30a9b8ea2e3f6a3c22a4a824737da06242d1367cf31869608f",
+        "entries": 44
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_pirate\\ext_01.cat",
+        "sha256": "5cd9841a1b3f7dce71a9732fb321b22ff8fa55c63a8ed61fd0eb1b147d8115d4",
+        "entries": 7061
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_pirate\\ext_02.cat",
+        "sha256": "fdbbf8efa36236b4115e3d27ccf482498dc67a0a74b6093fcb3ef225a43f5b72",
+        "entries": 55
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_pirate\\ext_03.cat",
+        "sha256": "56d099e6ef983c2aee51891ce89070ade372401660159c0bc090d6d5e038c97e",
+        "entries": 90
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_split\\ext_01.cat",
+        "sha256": "037d5255610dbfb026226f754bb6b4801b5047994bd09128a6ed3c86750d123c",
+        "entries": 11195
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_split\\ext_02.cat",
+        "sha256": "9322d7625d1fda8d7501e621f90a590276e978ef9a5bf18621e7351c998d1dbf",
+        "entries": 12
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_split\\ext_03.cat",
+        "sha256": "1fe0b1c1c011d16f21c4913f2a4cca24b3a441f0e67cb31b6c6fc31015b850bc",
+        "entries": 83
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_terran\\ext_01.cat",
+        "sha256": "3858873c5ab47f44717b27be08a0020ca203bba7b1fbd3d9d19d8644ae784a6b",
+        "entries": 14795
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_terran\\ext_02.cat",
+        "sha256": "33847cd0cae24b42eb07d0fd436579f340277259ed562fe67c5888bc9fb42ec0",
+        "entries": 207
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_terran\\ext_03.cat",
+        "sha256": "c75c993b0b7229e90b71dc7d7526c9600fdf3fad8f788f313d6b41c7b07ad3d3",
+        "entries": 109
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_timelines\\ext_01.cat",
+        "sha256": "f886f764f57ee69e25891767453916feef0f0f80dccff43698029964d85f99fb",
+        "entries": 6594
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_timelines\\ext_02.cat",
+        "sha256": "7093741d57c7a3af6f4a74ec89a39396ac351b6bbcb10f38625cd891b763628a",
+        "entries": 184
+      },
+      {
+        "path": "D:\\Games\\X4 Foundations\\extensions\\ego_dlc_timelines\\ext_03.cat",
+        "sha256": "5154575c1b11505bba40297fa9af558da294e1f872fd4fe07128d0344987395c",
+        "entries": 243
+      }
+    ],
+    "errors": [],
+    "unique_virtual_paths": 513274,
+    "limitation": "Catalog paths only, no load-order merge, vanilla XML selector simulation, signatures or DAT hash verification."
+  }
+}
