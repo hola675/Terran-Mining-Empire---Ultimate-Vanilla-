@@ -52,3 +52,7 @@ Fallos de FFI, eventos no registrados, diferencias boolean 0/1, LuaID sin conver
 Descubrir primero firmas reales de X4 9.00 en x4cat/XSD; instrumentar request_id, session_generation, respuesta MD y correlación, sin inventar APIs. Crear fuente aislada y staging, nunca cambiar scripts vanilla.
 
 **Estado:** decisión documental aprobada; no confundir con prueba de juego. Consultar [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [QA](19_MATRIZ_QA_EVIDENCIAS.md).
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+La única facción técnica de propiedad del imperio es la del jugador. Registro corporativo = vínculos y metadatos, no reowner/faction. V5.7 queda intacta y read-only. Un futuro protector de exclusividad de los cuatro sectores será un módulo aislado con pruebas de reclamación/deterioro/SAVE/LOAD, sin alterar reglas de sectores externos ni scripts globales de expansión. [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).
