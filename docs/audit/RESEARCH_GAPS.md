@@ -4,7 +4,7 @@
 
 | ID / prioridad | Pregunta o bloqueo | Evidencia disponible | Criterio de cierre y siguiente acción |
 |---|---|---|---|
-| RG-01 / P0 | ¿Cuál es el pack estable mínimo? | Clasificación de 110 archivos y dos APIs condicionales | Elegir estrategia de UI V5.7; manifiesto por hash; QA individual y conjunto |
+| RG-01 / P0 | ¿Cuál es el pack estable mínimo? | Clasificación de 112 archivos y dos APIs condicionales | Elegir estrategia de UI V5.7; manifiesto por hash; QA individual y conjunto |
 | RG-02 / P0 | ¿Qué variante se instala por ID? | Siete IDs repetidos; Don't Ignore Blacklists tiene variantes distintas | Seleccionar un proveedor; comparar payloads, no solo `content.xml` |
 | RG-03 / P0 | ¿Cómo resolver target monitor de UIX/Star Command? | Misma ruta `subst`, contenido diferente | Elegir versión efectiva/adaptador autorizado y probar menús; Star Command sigue aislado |
 | RG-04 / P0 | ¿Cómo corregir KAANE? | XML inválido `md/kill_and_attack_notifications_extended.xml:667` | Obtener/verificar release corregido; nuevo hash y parsing/XSD; conservar copia auditada |
@@ -22,11 +22,13 @@
 | RG-16 / P2 | ¿Qué herramienta está realmente lista para usar? | Forge tiene dependencias/dist; x4cat responde; otros paquetes solo inspeccionados | Smoke test aislado de SectorCreator/ModDoctor/XMLDiff según necesidad, sin ejecutarlos por existir |
 | RG-17 / P2 | ¿Cómo recuperar automatización y referencias antiguas? | 24 `.pyc` sin fuentes x4pack; `KNOWLEDGEBASE.md` y fuentes de `tools/x4validate/` sí están dentro del ZIP local Claude Code Toolkit V3.2.0, pero no en las rutas actuales de los agentes | Evaluar esa recuperación y sus permisos sin sustituir nuestras instrucciones; x4pack requiere fuente legítima propia o retirada de la referencia |
 | RG-18 / P2 | ¿Cómo completar campaña y continuidad de NPC? | Diseño de 20 misiones y personajes | IDs/diálogos/desbloqueos/errores/localización ES-EN y prueba de identidad sin duplicación |
+| RG-19 / P1 | ¿Resuelve el parche de soporte un fallo real de este perfil? | Parche 1.97 incorporado; doce sustituciones diferentes del soporte 1.95; dos alias opcionales, uno presente | Reproducir con control sin parche y comparar LAB-SUPPORT-PATCH-01; verificar destino efectivo y licencia |
+| RG-20 / P1 | ¿Aísla el gestor los ensayos lo suficiente? | Gestor 1.03 incorporado; requiere Print Extension List; el README mantiene quicksaves/autosaves compartidos | LAB-SETS-01/02, lista runtime tras reinicio y saves descartables; conservar copia externa anterior |
 
 ## Trabajo completado y alcance de los pendientes
 
-Completado: hashes de los 110 archivos, lectura de los tres formatos, manifiestos/IDs/autores declarados, dependencias declaradas, verificación CAT/DAT comunitarios, XML bien formado, rutas/selectores compartidos, índices de catálogos vanilla/DLC, registro documental de licencias y clasificación propuesta. Los programas de herramientas, XSD completos, ejecución Lua/MD, mapas fusionados y casos del motor no están certificados.
+Completado: hashes de los 112 archivos, lectura de los tres formatos, manifiestos/IDs/autores declarados, dependencias declaradas, verificación CAT/DAT comunitarios, XML bien formado, rutas/selectores compartidos, índices de catálogos vanilla/DLC, registro documental de licencias y clasificación propuesta. Los programas de herramientas, XSD completos, ejecución Lua/MD, mapas fusionados y casos del motor no están certificados.
 
-Se consultaron fuentes públicas de Egosoft y autores para cambios, requisitos y permisos prioritarios. No se auditó la procedencia web ni todos los permisos/bugs públicos de los 110 archivos. La colección local y estos registros son una base de evidencia para cerrar esas preguntas, no una aprobación de instalación global.
+Se consultaron fuentes públicas de Egosoft y autores para cambios, requisitos y permisos prioritarios. No se auditó la procedencia web ni todos los permisos/bugs públicos de los 112 archivos. La colección local y estos registros son una base de evidencia para cerrar esas preguntas, no una aprobación de instalación global.
 
 El siguiente incremento sigue siendo V5.7: baseline, estrategia mínima de UI, descubrir firmas válidas y observar una estación real. Puertas, soberanía, gobernadores y rescate mantienen expedientes separados y no bloquean el observador salvo que se conviertan indebidamente en dependencias.

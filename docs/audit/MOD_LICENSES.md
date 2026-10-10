@@ -1,8 +1,8 @@
 # Procedencia, licencias y redistribución
 
-**Revisión:** 2026-10-10. **Estado global:** `NOT_CLEARED`. [Registro de los 110 paquetes](data/license_packages.csv), [documentos/fingerprints dentro de extensiones](data/licenses.csv) y [autor declarado por manifiesto](data/extensions.csv).
+**Revisión:** 2026-10-10. **Estado global:** `NOT_CLEARED`. [Registro de los 112 paquetes](data/license_packages.csv), [documentos/fingerprints dentro de extensiones](data/licenses.csv) y [autor declarado por manifiesto](data/extensions.csv).
 
-Se encontraron documentos de tipo LICENSE/licence/permissions/README en 55 paquetes. Eso no significa 55 licencias favorables: un README puede carecer de permiso y un archivo puede estar en la raíz de una colección, fuera de la extensión concreta. Se preservan ruta y SHA-256, sin republicar código, assets ni textos de licencia de terceros. Los hashes identifican la copia, no prueban su descarga desde un autor autenticado.
+Se encontraron documentos de tipo LICENSE/licence/permissions/README en 57 paquetes. Eso no significa 57 licencias favorables: un README puede carecer de permiso y un archivo puede estar en la raíz de una colección, fuera de la extensión concreta. Se preservan ruta y SHA-256, sin republicar código, assets ni textos de licencia de terceros. Los hashes identifican la copia, no prueban su descarga desde un autor autenticado.
 
 ## Comprobaciones prioritarias
 
@@ -13,6 +13,8 @@ Se encontraron documentos de tipo LICENSE/licence/permissions/README en 55 paque
 | Gate Manage API | `LICENSE` Apache 2.0 dentro del DAT; mismo SHA-256 en la referencia fuente; la ficha Nexus tiene restricciones de publicación | Registrar las dos fuentes y aclarar su alcance; no tratar las restricciones de Nexus como descripción completa del código fuente |
 | Inix | Ficha del autor con restricciones de subida, modificación y uso de assets | Referencia/laboratorio; no incluir ni adaptar archivos para publicar sin resolver permisos |
 | Station Budget Watchdog | `x4-foundations-station-budget-watchdog-main/LICENSE` tiene texto MIT; el release local no incorpora esa misma evidencia en su raíz | Confirmar qué fuente corresponde al release y conservar avisos aplicables si se reutiliza |
+| Extension Sets Manager 1.03 | `LICENSE` dentro de `ext_01.dat` contiene Apache 2.0; SHA-256 `fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73` | Revisar alcance y avisos del artefacto antes de publicar; no basta con el marcador automático |
+| Sir Sector's Compatibility Patch 1.97 | README y fuentes `src/` incluidos; no se localizó archivo LICENSE/licence/permissions en sus 16 miembros ni en las 12 entradas CAT | Mantener revisión individual pendiente; no trasladar automáticamente la licencia de SirNukes al parche |
 | Player Feudal Realm y demás paquetes | Declaraciones de autor/metadatos y documentos del CSV | Permisos individuales pendientes; ausencia de licencia legible no se transforma en autorización |
 | Recursos del juego/DLC | Catálogos instalados de Egosoft | Dependencia externa; no incorporar archivos del juego a la distribución propia |
 

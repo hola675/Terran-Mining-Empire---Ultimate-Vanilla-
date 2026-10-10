@@ -2,7 +2,7 @@
 
 **Inspección:** 2026-10-10. **Objetivo:** X4: Foundations 9.00. **Resultado:** auditoría estática completada; selección propuesta y compatibilidad en el motor pendientes.
 
-Se inspeccionaron los **110 archivos locales**: 78 en `inputs/mods`, 20 en `inputs/reference/mods` y 12 en `inputs/reference/tools`. Los 100 ZIP, 6 7Z y 4 RAR pudieron leerse. Se calcularon SHA-256 de cada paquete, se leyeron 129 manifiestos de extensión (122 IDs distintos) y se verificaron 46 pares CAT/DAT con 24.703 entradas mediante los MD5 declarados por sus catálogos. Un ZIP puede contener muchas extensiones: `x4-projects-master.zip` contiene 29 manifiestos; no es un único mod instalable.
+Se inspeccionaron los **112 archivos locales**: 80 en `inputs/mods`, 20 en `inputs/reference/mods` y 12 en `inputs/reference/tools`. Los 102 ZIP, 6 7Z y 4 RAR pudieron leerse. Se calcularon SHA-256 de cada paquete, se leyeron 131 manifiestos de extensión (124 IDs distintos) y se verificaron 48 pares CAT/DAT con 24.739 entradas mediante los MD5 declarados por sus catálogos. Un ZIP puede contener muchas extensiones: `x4-projects-master.zip` contiene 29 manifiestos; no es un único mod instalable.
 
 `READ` significa que se pudo inspeccionar el archivo; no certifica todos sus assets, instalación, ejecución, autenticidad de origen ni compatibilidad. Los hashes identifican esta copia local, sin comparación con hashes publicados por el autor. La inspección de herramientas se limita a su archivo, índice y documentos: no se ejecutaron los programas descargados.
 
@@ -24,6 +24,8 @@ Hay **404 rutas compartidas** entre proveedores; 184 aparecen en los catálogos 
 
 ## Expedientes
 
+La colección incluye las [dos descargas incorporadas desde `Downloads/new`](PACK_BASE_MANIFEST.md#incorporación-de-las-dos-descargas-nuevas): Extension Sets Manager 1.03 como candidato opcional y Sir Sector's Compatibility Patch 1.97 como laboratorio. Se preservaron los originales y se verificaron los hashes de las copias. Las [doce sustituciones del parche](data/compatibility_patch_overrides.csv) se compararon aparte contra soporte 1.95; el detector general no resuelve ese prefijo de extensión destino.
+
 - [Selección y manifiesto del pack base](PACK_BASE_MANIFEST.md)
 - [Dependencias, IDs y orden de carga](MOD_DEPENDENCIES.md)
 - [Compatibilidad y solapamientos en 9.00](MOD_COMPATIBILITY_900.md)
@@ -35,7 +37,7 @@ Hay **404 rutas compartidas** entre proveedores; 184 aparecen en los catálogos 
 
 ## Evidencias y repetición
 
-La carpeta [data](data/) publica solo metadatos, rutas y fingerprints: inventario de 110 paquetes, 129 manifiestos, 196 relaciones declaradas, solapamientos con selectores, selección propuesta y registro documental de licencias para todos los paquetes. [summary.json](data/summary.json) conserva fecha UTC, hash del script, estado del entorno y hashes de los 30 catálogos del juego/DLC consultados. Se excluyeron sus catálogos de firmas `_sig`. Se identificaron 513.274 rutas virtuales únicas en ese ámbito, sin leer ni verificar los DAT del juego. Ese número no es comparable directamente con el índice que cubre solo el juego base.
+La carpeta [data](data/) publica solo metadatos, rutas y fingerprints: inventario de 112 paquetes, 131 manifiestos, 201 relaciones declaradas, solapamientos con selectores, selección propuesta y registro documental de licencias para todos los paquetes. [summary.json](data/summary.json) conserva fecha UTC, hash del script, estado del entorno y hashes de los 30 catálogos del juego/DLC consultados. Se excluyeron sus catálogos de firmas `_sig`. Se identificaron 513.274 rutas virtuales únicas en ese ámbito, sin leer ni verificar los DAT del juego. Ese número no es comparable directamente con el índice que cubre solo el juego base.
 
 El informe detallado local `workspace/audit-pack-base/audit.json` conserva las operaciones XML por archivo, los MD5 comprobados y la cobertura de catálogos. No se incorpora completo a Git por su tamaño; puede regenerarse con las mismas entradas. Los paquetes originales y las dependencias del lector siguen ignorados por Git.
 

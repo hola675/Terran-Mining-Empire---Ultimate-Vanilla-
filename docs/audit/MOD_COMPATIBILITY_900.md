@@ -22,13 +22,23 @@ Total: 404 rutas, contando toda la biblioteca, incluidas fuentes. De ellas, 184 
 
 Ejemplos materiales: `aiscripts/order.trade.routine.xml` es parcheado por Emergent Missions, Trade Analytics, Logistics Guidance, Replicate Commanders Logic, Station Trader Multiorder, Subordinates Config Unlocker y KUDA. `aiscripts/trade.station.xml` añade Star Command y otros sistemas de reputación/analítica a la revisión. Alinear la selección con [SYSTEM_OWNERSHIP](SYSTEM_OWNERSHIP.md) antes de probar economías/órdenes conjuntas.
 
+## Parche de soporte incorporado
+
+Sir Sector's Mod Support Compatibility Patch 1.97 contiene un catálogo `subst_01` de 12 entradas bajo `extensions/sn_mod_support_apis/`: dos XML MD (`named_pipes.xml`, `simple_menu_options.xml`) y diez Lua de biblioteca, hotkeys, interacción, pipes, menús y tiempo. La comparación directa contra el CAT/DAT de Mod Support APIs 1.95 encuentra las doce rutas y confirma que las doce cambian de contenido. Las copias en `src/extensions/sn_mod_support_apis/` coinciden byte a byte con el payload del parche. [Registro de comparación y SHA-256 por archivo](data/compatibility_patch_overrides.csv).
+
+Estas rutas usan un prefijo de extensión destino: el detector general de solapamientos compara rutas literales y no las resuelve contra los archivos relativos de otra extensión. Por eso esta comparación se registra aparte y no se suma a la matriz anterior. No se determinó la precedencia efectiva por carpeta/ID ni se verificaron los beneficios de estabilidad que anuncia el README. Requiere un fallo reproducible, control con soporte 1.95 sin parche, carga UI/MD, hotkeys, menús, pipes cuando proceda y save/load.
+
+Para repetir la comparación del CSV: verificar los hashes de ambos ZIP, leer sus CAT con `parse_catalog` del lector, obtener cada payload por offset/tamaño del DAT, quitar `extensions/sn_mod_support_apis/` de la ruta del parche y buscar esa ruta relativa en el catálogo del soporte. Calcular SHA-256 de ambos payloads y comparar además el payload del parche con `sn_mod_support_apis_patch/src/` seguido de su ruta CAT. Este registro adicional se actualiza por esa comparación; no lo genera el comando general de auditoría.
+
+Extension Sets Manager incorpora 24 entradas en `ext_01`, con XML de traducción y Lua para menús, conjuntos y saves. Su README describe modificaciones de menús en runtime; no contiene sustituciones `subst`. Ese diseño no demuestra compatibilidad con UIX ni aislamiento completo de saves: las pruebas siguen pendientes.
+
 ## Cambios del motor y falsos positivos
 
 Egosoft documenta para 9.00 la reconversión de colisiones `.jcs`, cambios en equipos S/M, APIs retiradas, nuevos datos de recursos y cambios en acciones MD. También indica que la capa UI puede tener cambios no enumerados. [Breaking Changes oficial](https://wiki.egosoft.com/X4%20Foundations%20Wiki/Modding%20Support/Breaking%20Changes/).
 
 El escaneo de once patrones retirados/deprecados dio una coincidencia: `event_area_discovered` en `md/kuertee_ssac.xml:737`, Social Standings And Citizenships. La comprobación directa la encontró dentro de un comentario XML. No se marca como código incompatible. Cero coincidencias adicionales en esta lista limitada **no** demuestra ausencia de otros cambios de 9.00.
 
-No se comprobó la versión de las colisiones `.jcs`, ni sintaxis/semántica Lua, ni XPL compilado. El MD5 verificado de 24.703 entradas de los 46 pares CAT/DAT solo confirma que el payload coincide con el índice de su paquete. No sustituye la validación XSD, la firma de procedencia ni una ejecución en el juego.
+No se comprobó la versión de las colisiones `.jcs`, ni sintaxis/semántica Lua, ni XPL compilado. El MD5 verificado de 24.739 entradas de los 48 pares CAT/DAT solo confirma que el payload coincide con el índice de su paquete. No sustituye la validación XSD, la firma de procedencia ni una ejecución en el juego.
 
 ## Gates de aceptación
 

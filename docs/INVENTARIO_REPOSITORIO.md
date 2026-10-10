@@ -1,5 +1,7 @@
 # Inventario actual del repositorio
 
+**Actualización posterior:** se incorporaron dos ZIP de `Downloads/new`; la colección actual tiene 112 paquetes. Los recuentos y tablas siguientes conservan la captura inicial de 110. Consultar la [auditoría vigente](audit/README.md) y su [registro de incorporaciones](audit/PACK_BASE_MANIFEST.md#incorporación-de-las-dos-descargas-nuevas).
+
 **Fecha del inventario:** 2026-10-10
 **Raíz inspeccionada:** `D:\Proyectos\Terran Mining Empire — Ultimate Vanilla+`
 **Alcance:** archivos y carpetas presentes en la carpeta de trabajo, incluidos archivos ignorados por Git. Se excluyen `.git/` y los destinos externos de junctions; se enumeran las junctions locales, pero no sus archivos de destino.

@@ -426,6 +426,10 @@ def classify(package):
         return "REFERENCE", "Source/example collection; do not install as a bundle"
     if any(f["kind"] == "xml_parse_error" for m in package["mods"] for f in m["files"]):
         return "QUARANTINE", "XML not well-formed; requires corrected upstream artifact"
+    if "sir sector's mod support compatibility patch" in name:
+        return "LAB", "Replaces Mod Support APIs files; evaluate only against a reproduced failure and an unpatched control"
+    if "extension_sets_manager_" in name:
+        return "OPTIONAL_CANDIDATE", "Optional profile manager; requires Print Extension List and save-isolation QA"
     if any(s in name for s in ["ui extensions 552", "sn_mod_support_apis_v"]):
         return "CONDITIONAL_CORE", "Only if the chosen TME UI implementation requires it; QA pending"
     if any(s in name for s in ["gate_manage", "inix gate", "player feudal", "kuda_ai", "escape pod", "living crew", "rescuerangers", "civilian economy"]):

@@ -14,6 +14,7 @@ inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,
 inputs/mods/Escape Pod reloaded 1899 1.5.1 2026-08-21T17-06Z 2j4J4HM7p.zip,ff6067992c7117eab7d881b753f56b08de8ffc7341519eccea69ecf28a4e6874,,,NOT_CLEARED
 inputs/mods/Eternal Twilight Expansion 2144 1.5 2026-07-05T13-27Z gZEBEIlIp.7z,958047ecae3e14fd9b9d12a5a114979f68fd1eabcd60e6238c6b739c72063d68,,,NOT_CLEARED
 inputs/mods/Extended Repair Protocols 2390 1 2026-09-26T11-44Z K8iPi4yEQ.rar,2ba4df434fc4705ee91af10670a1150cdea809f4abe071b37e7f4077df3baedc,,,NOT_CLEARED
+inputs/mods/extension_sets_manager_1.03.zip 2401 1.03 2026-10-01T11-27Z tIegefLnT.zip,746c4228b396c32f4313f9bd54ca67bcb363f7405145eca6c96e92b86c1aaeb8,extension_sets_manager/README.md,extension_sets_manager::LICENSE | extension_sets_manager::README.md | extension_sets_manager::README.md,NOT_CLEARED
 inputs/mods/Eye Free Traders Consortium 2341 1 2026-08-25T18-58Z pAoio7axy.zip,9f62cea7e5d9ea5e1d242900076d2a0fe67f9d53ccca6a6de07215a1f5beaa49,,,NOT_CLEARED
 inputs/mods/Freeq's Paintjobs-233-1-20-1616376741.7z,b3c7b0ad8c6d710c8d4b09eb9f79bb65e5268314d744ed6c8961570e255fe733,z_freeqspaintjobs/readme.txt,z_freeqspaintjobs::readme.txt,NOT_CLEARED
 inputs/mods/gal_taxi-1352-1-40-1781114686.zip,047adcbfad3c7fb9d9249873d25ba3b36f456573dc5d9307461df6d1207bdaeb,gal_taxi/assets/units/size_s/ship_ter_s_galtaxi_01_data/fx_licence-collision.xmf | gal_taxi/assets/units/size_s/ship_ter_s_galtaxi_01_data/fx_licence-hull.jcs | gal_taxi/assets/units/size_s/ship_ter_s_galtaxi_01_data/fx_licence-lod0.xmf | gal_taxi/assets/units/size_s/ship_ter_s_galtaxi_01_data/fx_licence-mesh.jcs,,NOT_CLEARED
@@ -59,6 +60,7 @@ inputs/mods/Sectional Ring-1483-2-0-1723831481.zip,67f726a08f0ad33436b01f66eb119
 inputs/mods/Service Crew Repairs AIO-2066-1-6-1777984552.zip,4b750245826133ad45b18984a03f8b200c7381e510afba4f7cd0f59eb686de70,,,NOT_CLEARED
 inputs/mods/Ship Variation Expansion 2141 2.2.1 2026-09-08T22-16Z tIegefLgZ.zip,2d6ff228d07772be3ed8ff752843df95b37c9d3e4292dbf29d8eeaca8c08d54e,,,NOT_CLEARED
 inputs/mods/ShipTradersSellPaintMods 1.03-186-v1-03-1693054641.zip,189119a77ebd4b392155f8f19323c60b4d4fb5c6f7f0cf4bc112531cc58afb1e,,,NOT_CLEARED
+inputs/mods/Sir Sector's Mod Support Compatibility Patch 2373 1.97 2026-10-06T08-21Z YwOaOVnm0.zip,3729e51d8e14f4a780a1f3e141bef4a12ec2c540006e8cef5afa864fcfd22463,sn_mod_support_apis_patch/README.md,sn_mod_support_apis_patch::README.md,NOT_CLEARED
 inputs/mods/sn_mod_support_apis_v1.95.zip-503-1-95-1765186600.zip,c43cbd873c09f3f3b6f7bea3e4d5955169a3c609b33bb29d7b38652519bc95c7,sn_mod_support_apis/readme.txt,sn_mod_support_apis::readme.txt,NOT_CLEARED
 inputs/mods/SpaceCamouflage-1666-4-1745064980.zip,4847f675dc6366548a4315a55707b5bb28eac7045464ac176d38ffbb0706ce68,,,NOT_CLEARED
 inputs/mods/Station Budget Watchdog 2161 1.0.1 2026-07-28T18-58Z pAoio7ar5.zip,e28044415f0fd9d70458349e94deb06f1f47d261fb11e6802640442457d4bd84,vas_station_budget_watchdog/LICENSE,vas_station_budget_watchdog::LICENSE,NOT_CLEARED

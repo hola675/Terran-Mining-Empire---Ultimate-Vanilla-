@@ -43,4 +43,14 @@ El log existente comenzó el 2026-10-09 y registra 9.00 (611726), archivos de TM
 
 La sustitución UIX/Star Command requiere comparar el payload efectivo del target monitor y su comportamiento, además de la lista de archivos. El fallo XML en cuarentena se resuelve con un artefacto corregido antes de probarlo en el motor.
 
+## Ensayos de las dos incorporaciones
+
+| Caso | Control y acción | Estado |
+|---|---|---|
+| LAB-SETS-01 | Con Print Extension List 1.01: función inicialmente apagada, crear/aplicar conjuntos y verificar lista tras reinicio; repetir con y sin UIX | NOT_TESTED |
+| LAB-SETS-02 | Saves descartables: distinguir manuales por conjunto; comprobar visibilidad de slots 11–20 con/sin UIX, desactivación y reversión | NOT_TESTED |
+| LAB-SUPPORT-PATCH-01 | Reproducir primero un fallo con soporte 1.95; repetir exactamente el caso con parche 1.97, registrando payload efectivo, nuevos logs y regresiones UI/MD/hotkeys/save-load | NOT_TESTED |
+
+Según el README local, el gestor aplica conjuntos al reiniciar, mantiene el gestor y Print Extension List habilitados y solo separa saves manuales; quicksaves, autosaves y saves online siguen compartidos. Retirar UIX oculta los slots manuales 11–20 sin borrar sus archivos. Estas condiciones impiden tratar los conjuntos como aislamiento completo de los laboratorios. No ejecutar opciones de borrar saves durante una prueba de aislamiento.
+
 Los procedimientos de runtime y evidencias siguen el [documento 18](../plan/18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y el [documento 19](../plan/19_MATRIZ_QA_EVIDENCIAS.md). Retirar una extensión que creó objetos persistentes no es un rollback demostrado: usar el save anterior al ensayo cuando corresponda y comprobar la reversión.

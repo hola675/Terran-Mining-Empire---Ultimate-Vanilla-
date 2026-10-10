@@ -11,6 +11,9 @@ inputs/mods/Dont_ignore_blacklists 1938 106 2026-09-25T20-55Z SoVbVU5Wt.7z,don't
 inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,enhanced_info_center,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
 inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,enhanced_info_center,README.md,e85d0c80908ffa0e62a69f6a606e50c1bbaec964f2942c6d9090e9ee8c284360,[],NOT_REVIEWED
 inputs/mods/Enhanced Info Center 1.00 1970 1.00 2026-08-22T18-06Z sgzuztIPm.zip,enhanced_info_center,README.md,e85d0c80908ffa0e62a69f6a606e50c1bbaec964f2942c6d9090e9ee8c284360,[],NOT_REVIEWED
+inputs/mods/extension_sets_manager_1.03.zip 2401 1.03 2026-10-01T11-27Z tIegefLnT.zip,extension_sets_manager,LICENSE,fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73,['Apache-2.0 marker'],NOT_REVIEWED
+inputs/mods/extension_sets_manager_1.03.zip 2401 1.03 2026-10-01T11-27Z tIegefLnT.zip,extension_sets_manager,README.md,373ae2f6692ddc24bb2cb883867bcadb191ad63c1d154501a326a9c5ba592ced,[],NOT_REVIEWED
+inputs/mods/extension_sets_manager_1.03.zip 2401 1.03 2026-10-01T11-27Z tIegefLnT.zip,extension_sets_manager,README.md,373ae2f6692ddc24bb2cb883867bcadb191ad63c1d154501a326a9c5ba592ced,[],NOT_REVIEWED
 inputs/mods/Freeq's Paintjobs-233-1-20-1616376741.7z,z_freeqspaintjobs,readme.txt,379339a4492e08a0f5fb02554a1982d3c448d980a68448eb396db154398feb9f,[],NOT_REVIEWED
 inputs/mods/gate_manage_api_1.01.zip 1856 1.02 2026-09-08T09-37Z 8Hc2cyv2N.zip,gate_manage_api,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED
 inputs/mods/gate_manage_api_1.01.zip 1856 1.02 2026-09-08T09-37Z 8Hc2cyv2N.zip,gate_manage_api,README.md,e01d38ecf8990cea84b9027bc1451e370ce3c003fea42b389828567b7f06c248,[],NOT_REVIEWED
@@ -53,6 +56,7 @@ inputs/mods/Prospect Missions V1.0.1 2192 1.0.1 2026-06-26T19-13Z 2j4J4HMez.zip,
 inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip,rescuerangers,LICENSE,25027747cb17f81130b805a910e33b6bd4ab99df15b76dc30f90aea37b26a6eb,['Apache-2.0 marker'],NOT_REVIEWED
 inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip,rescuerangers,README.md,e075b25c82beec57240b1da40636a9335ed8c2507b1ccea6a2be753636c37003,[],NOT_REVIEWED
 inputs/mods/rescuerangers_2.01.zip 1571 2.01 2026-10-05T10-13Z U5momTOug.zip,rescuerangers,README.md,e075b25c82beec57240b1da40636a9335ed8c2507b1ccea6a2be753636c37003,[],NOT_REVIEWED
+inputs/mods/Sir Sector's Mod Support Compatibility Patch 2373 1.97 2026-10-06T08-21Z YwOaOVnm0.zip,sn_mod_support_apis_patch,README.md,d5e9b9c45a47105e0d3a8c6d84e838e0c1d64a033e2ab530f64b26f72aeff68b,[],NOT_REVIEWED
 inputs/mods/sn_mod_support_apis_v1.95.zip-503-1-95-1765186600.zip,sn_mod_support_apis,readme.txt,7b51206a4348c2ed9ae1761eea9c4099e2f7824bcaf6e6d230102ebda36ead74,[],NOT_REVIEWED
 inputs/mods/Station Budget Watchdog 2161 1.0.1 2026-07-28T18-58Z pAoio7ar5.zip,vas_station_budget_watchdog,LICENSE,d3beb96494db2512bfbb1692f7addbe4c79d087240f2d5db7c2cfb2b05551504,['MIT marker'],NOT_REVIEWED
 inputs/mods/station_production_overview_9.00.10.zip 2049 9.00.10 2026-06-18T17-25Z VnBwBmDrL.zip,station_production_overview,LICENSE,c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4,['Apache-2.0 marker'],NOT_REVIEWED

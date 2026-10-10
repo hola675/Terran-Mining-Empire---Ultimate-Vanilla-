@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-10T20:35:23.308181+00:00",
-  "script_sha256": "e2786fc6ee7669a3d116553bd8799c5f069ec615f5dddb107551147f7b836e0d",
+  "generated_utc": "2026-10-10T21:00:30.936651+00:00",
+  "script_sha256": "a897c32620196f458c8e04fd91dd20b7762d960e7fc8a684ac3510ddfcc3680e",
   "summary": {
-    "archives": 110,
+    "archives": 112,
     "archive_formats": {
-      "ZIP": 100,
+      "ZIP": 102,
       "RAR": 4,
       "7Z": 6
     },
     "archive_status": {
-      "READ": 110
+      "READ": 112
     },
-    "extension_manifests": 129,
-    "distinct_extension_ids": 122,
+    "extension_manifests": 131,
+    "distinct_extension_ids": 124,
     "catalog_status": {
-      "VERIFIED_DAT": 46
+      "VERIFIED_DAT": 48
     },
-    "catalog_entries": 24703,
+    "catalog_entries": 24739,
     "xml_parse_errors": 1,
     "dependency_states": {
-      "NOMINAL_VERSION_OK": 178,
-      "NOT_FOUND": 8,
+      "NOMINAL_VERSION_OK": 182,
+      "NOT_FOUND": 9,
       "UNVERIFIED_ATTRIBUTE": 8,
       "UNKNOWN_VERSION": 2
     },
@@ -35,8 +35,8 @@
     "breaking_900_hits": 1,
     "proposed_roles": {
       "REFERENCE": 75,
-      "OPTIONAL_CANDIDATE": 12,
-      "LAB": 8,
+      "OPTIONAL_CANDIDATE": 13,
+      "LAB": 9,
       "QUARANTINE": 1,
       "CONDITIONAL_CORE": 2,
       "TOOL_REFERENCE": 12

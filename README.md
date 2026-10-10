@@ -8,7 +8,7 @@ El repositorio recoge el entorno de investigación y la **especificación consol
 
 [**Leer los 20 documentos del proyecto**](docs/README.md)
 
-[**Auditoría técnica de los 110 paquetes y ocho expedientes del pack base**](docs/audit/README.md): hashes, metadatos, dependencias, CAT/DAT, solapamientos y licencias. La inspección estática está completada; el pack sigue sin congelar y la compatibilidad en el juego está pendiente.
+[**Auditoría técnica de los 112 paquetes y ocho expedientes del pack base**](docs/audit/README.md): hashes, metadatos, dependencias, CAT/DAT, solapamientos y licencias. La inspección estática está completada; el pack sigue sin congelar y la compatibilidad en el juego está pendiente.
 
 ## Decisión inmediata: V5.7
 
