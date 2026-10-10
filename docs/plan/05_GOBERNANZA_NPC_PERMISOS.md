@@ -33,3 +33,9 @@ Guardar IDs reales de NPC, nave y puesto; el nombre visible puede cambiar. Ante 
 
 ## Garantía
 No simular nóminas periódicas ni niveles de habilidad que X4 no cobre/otorgue. Evaluar salarios o carreras solo si una mecánica concreta existe o se implementa de forma explícita y balanceada.
+
+## V5.7 — opción A: aplicación al dominio
+
+Leer únicamente el administrador real. Una referencia ausente no permite crear, reasignar ni ascender NPC.
+
+**Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
