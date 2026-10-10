@@ -33,3 +33,7 @@ La ubicación de puertas requiere mapa, aproximaciones despejadas, orientación,
 La estación del ensayo puede residir en un sector vanilla existente; no se crearán sectores ni puertas para certificar V5.7.
 
 **Estado:** especificación, sin validación de motor. Referencias: [protocolo](18_V57_ESTACION_REAL_ALMACENAMIENTO.md) y [pruebas](19_MATRIZ_QA_EVIDENCIAS.md).
+
+## Ratificación de arquitectura — facción del jugador (2026-10-10)
+
+**Decisión definitiva:** Fundacional, Cuenca Minera, Horizonte Industrial y Frontera Estratégica son siempre territorio reservado exclusivamente a la facción del jugador/TME. Se descarta liberar su reclamación a NPC al completar los cuatro. El privilegio NO regala estaciones, evita ataques naturales ni implica propiedad nativa antes de construir módulo reclamante. La exclusividad permanente tras la destrucción de módulos requiere investigar un adaptador restringido a los cuatro sectores; todavía NO VERIFICADO. Fuera del núcleo, TME podrá proponer anexiones de sectores colindantes por conexiones activas, reclamados con mecánica nativa y costo real. Neptuno es el único vecino exterior inicial y pertenece a TER: la anexión pacífica exterior no está garantizada. [ADR-0001](../decisions/ADR-0001_FACCION_JUGADOR_SOBERANIA_Y_EXPANSION.md).
