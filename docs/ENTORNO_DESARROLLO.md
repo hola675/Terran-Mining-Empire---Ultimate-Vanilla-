@@ -52,3 +52,7 @@ El X Catalog Tool oficial de Egosoft (versión 1.11) es otra opción para operar
 - [X4 Forge](https://github.com/KennyG1990/X4_Forge)
 - [x4cat](https://github.com/meethune/x4cat)
 - [X4CodeSense en Open VSX](https://open-vsx.org/extension/X4DevTools/x4codesense)
+
+## Enlace con la especificación V5.7 (2026-10-10)
+
+La [documentación canónica de veinte temas](README.md) recoge las decisiones de Terran Mining Empire y el próximo prototipo **COM-01/V5.7**, que observará una estación real y su almacenamiento sin modificar economía u órdenes. Los recursos descritos arriba siguen siendo datos del entorno local documentado, no una certificación ejecutada desde GitHub. El código fuente propio y los ensayos en el motor siguen pendientes.
