@@ -1,0 +1,47 @@
+{
+  "verified_utc": "2026-10-11T02:44:02.947862+00:00",
+  "official_page": "https://www.nexusmods.com/x4foundations/mods/2216",
+  "official_files": "https://www.nexusmods.com/x4foundations/mods/2216?tab=files",
+  "source": "C:/Users/Admin/Downloads/new/Z Conversation Pagination 2216 9.0 2026-07-08T17-40Z XqjfjxPoc.7z",
+  "local_copy": "inputs/mods/Z Conversation Pagination 2216 9.0 2026-07-08T17-40Z XqjfjxPoc.7z",
+  "copy_sha256_match": true,
+  "bytes": 504129,
+  "sha256": "f520098080cd8b753f46ee582a054ac2581c598de2c809990ebb0303a6288d24",
+  "format": "7Z",
+  "archive_status": "READ",
+  "content_sha256": "03634ab88367ef65f0506908c502e63e8d5ebaf062b9ee930945de87ef599a5d",
+  "manifest_attributes": {
+    "id": "ws_3722585376",
+    "name": "Conversation Pagination API",
+    "author": "Mantxi",
+    "version": "900",
+    "date": "2026-05-10",
+    "save": "false",
+    "enabled": "1",
+    "sync": "false",
+    "lastupdate": "1778407319"
+  },
+  "declared_dependencies": [],
+  "member_count": 8,
+  "catalogs": 0,
+  "document_fingerprints": [
+    {
+      "package": "inputs/mods/Z Conversation Pagination 2216 9.0 2026-07-08T17-40Z XqjfjxPoc.7z",
+      "root": "",
+      "path": "README.md",
+      "sha256": "dd90a60e86d0788d1b02a3d34c1e2863553aa95218782bf4b2ec21b41657ed4a",
+      "markers": [],
+      "redistribution": "NOT_REVIEWED"
+    }
+  ],
+  "selection_role": "REFERENCE",
+  "pfr_dependency_state": "NOMINAL_VERSION_OK",
+  "redistribution": "NOT_CLEARED",
+  "installed_in_game": false,
+  "runtime": "NOT_TESTED",
+  "limitations": [
+    "Local acquisition supplied by the user; no authenticated download receipt or author-published hash comparison.",
+    "No CAT/DAT in this artifact; XML parsing is static evidence only.",
+    "Publication date on Nexus differs from content.xml date; both are retained."
+  ]
+}

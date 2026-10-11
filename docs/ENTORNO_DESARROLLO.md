@@ -59,7 +59,7 @@ La [documentación canónica de veinte temas](README.md) recoge las decisiones d
 
 ## Comprobación local del pack (2026-10-10)
 
-La [auditoría técnica](audit/README.md) leyó los 112 archivos, incluidos RAR con UnRAR 7.01 instalado y 7Z con py7zr 1.1.3 aislado en `workspace/audit-pack-base/vendor`. No se ejecutaron los programas de herramientas descargados. Forge conserva `node_modules` y `dist`; su compilación no se repitió. La CLI x4cat respondió a la consulta de ayuda, sin reconstruir el índice.
+La [auditoría técnica](audit/README.md) leyó los 113 archivos, incluidos RAR con UnRAR 7.01 instalado y 7Z con py7zr 1.1.3 aislado en `workspace/audit-pack-base/vendor`. No se ejecutaron los programas de herramientas descargados. Forge conserva `node_modules` y `dist`; su compilación no se repitió. La CLI x4cat respondió a la consulta de ayuda, sin reconstruir el índice.
 
 El archivo `version.dat` declara `900` y `X4.exe` informa versión 9.0.0.0. El log existente del 2026-10-09 identifica build **611726** y registra un prototipo TME con errores de `TME_Kernel`; ese antecedente no localiza su fuente actual ni acredita V5.7. En las carpetas inspeccionadas del juego y del perfil hay siete DLC con manifiesto `900`, sin mods comunitarios presentes. El perfil mantiene entradas antiguas de SW Interworlds/Friendly Fire Tweaks y `uisafemode=false`; falta registrar la lista cargada en una nueva ejecución.
 

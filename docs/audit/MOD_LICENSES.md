@@ -1,8 +1,8 @@
 # Procedencia, licencias y redistribución
 
-**Revisión:** 2026-10-10. **Estado global:** `NOT_CLEARED`. [Registro de los 112 paquetes](data/license_packages.csv), [documentos/fingerprints dentro de extensiones](data/licenses.csv) y [autor declarado por manifiesto](data/extensions.csv).
+**Revisión:** 2026-10-10. **Estado global:** `NOT_CLEARED`. [Registro de los 113 paquetes](data/license_packages.csv), [documentos/fingerprints dentro de extensiones](data/licenses.csv) y [autor declarado por manifiesto](data/extensions.csv).
 
-Se encontraron documentos de tipo LICENSE/licence/permissions/README en 57 paquetes. Eso no significa 57 licencias favorables: un README puede carecer de permiso y un archivo puede estar en la raíz de una colección, fuera de la extensión concreta. Se preservan ruta y SHA-256, sin republicar código, assets ni textos de licencia de terceros. Los hashes identifican la copia, no prueban su descarga desde un autor autenticado.
+Se encontraron documentos de tipo LICENSE/licence/permissions/README en 58 paquetes. Eso no significa 58 licencias favorables: un README puede carecer de permiso y un archivo puede estar en la raíz de una colección, fuera de la extensión concreta. Se preservan ruta y SHA-256, sin republicar código, assets ni textos de licencia de terceros. Los hashes identifican la copia, no prueban su descarga desde un autor autenticado.
 
 ## Comprobaciones prioritarias
 
@@ -15,12 +15,15 @@ Se encontraron documentos de tipo LICENSE/licence/permissions/README en 57 paque
 | Station Budget Watchdog | `x4-foundations-station-budget-watchdog-main/LICENSE` tiene texto MIT; el release local no incorpora esa misma evidencia en su raíz | Confirmar qué fuente corresponde al release y conservar avisos aplicables si se reutiliza |
 | Extension Sets Manager 1.03 | `LICENSE` dentro de `ext_01.dat` contiene Apache 2.0; SHA-256 `fe90df6c1d9e690c1e937f59ec46dc01882fafe4e3e1b544ead6ca8af59f4d73` | Revisar alcance y avisos del artefacto antes de publicar; no basta con el marcador automático |
 | Sir Sector's Compatibility Patch 1.97 | README y fuentes `src/` incluidos; no se localizó archivo LICENSE/licence/permissions en sus 16 miembros ni en las 12 entradas CAT | Mantener revisión individual pendiente; no trasladar automáticamente la licencia de SirNukes al parche |
+| Conversation Pagination API 9.0 | README local, SHA-256 `dd90a60e86d0788d1b02a3d34c1e2863553aa95218782bf4b2ec21b41657ed4a`; no documento LICENSE/licence/permissions identificado entre sus ocho archivos | La ficha Nexus restringe subir sus archivos a otros sitios y exige permiso para modificación/uso de assets; conservar solo metadatos y enlaces en Git, estado `NOT_CLEARED` |
 | Player Feudal Realm y demás paquetes | Declaraciones de autor/metadatos y documentos del CSV | Permisos individuales pendientes; ausencia de licencia legible no se transforma en autorización |
 | Recursos del juego/DLC | Catálogos instalados de Egosoft | Dependencia externa; no incorporar archivos del juego a la distribución propia |
 
 En Mod Support APIs hay una discrepancia documental relevante: los campos de permisos de Nexus muestran restricciones, pero la nota expresa del autor remite a la licencia MIT de GitHub. [Ficha de SirNukes](https://www.nexusmods.com/x4foundations/mods/503), [licencia del repositorio](https://github.com/bvbohnen/x4-projects/blob/master/LICENSE). Debe resolverse el alcance por artefacto y componente; el informe inicial no justifica describir toda la API como no redistribuible.
 
 La licencia Apache localizada para Gate Manage API tiene SHA-256 `c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`. Las condiciones de publicación de la ficha son una evidencia separada. [Ficha de Gate Manage API](https://www.nexusmods.com/x4foundations/mods/1856). Para UIX e Inix se revisaron sus fichas propias: [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552), [Inix](https://www.nexusmods.com/x4foundations/mods/2319).
+
+Se revisaron también los permisos públicos de [Conversation Pagination API](https://www.nexusmods.com/x4foundations/mods/2216) y [Extension Sets Manager](https://www.nexusmods.com/x4foundations/mods/2401). Ambas fichas restringen la subida a otros sitios. En el gestor, esa evidencia se conserva separada del texto Apache 2.0 encontrado dentro del paquete; esta auditoría no resuelve su alcance ni publica sus archivos.
 
 ## Registro para cerrar un permiso
 

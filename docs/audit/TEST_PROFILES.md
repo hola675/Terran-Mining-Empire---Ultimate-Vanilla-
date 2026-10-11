@@ -1,6 +1,6 @@
 # Perfiles de pruebas
 
-**Revisión:** 2026-10-10. **Estado:** protocolos preparados; perfiles no creados ni activados. No se han modificado carpetas de extensiones, configuración ni saves.
+**Revisión:** 2026-10-10. **Estado:** protocolos, respaldo y configuración candidata preparados en staging; perfiles no activados. No se han modificado carpetas de extensiones, configuración ni saves.
 
 | Perfil | Componentes admitidos | Objeto y salida mínima |
 |---|---|---|
@@ -12,6 +12,8 @@
 `TME-LAB` es una familia de ensayos: no activar todos los experimentos simultáneamente. Registrar subcaso, por ejemplo `TME-LAB-GATES-01`, y su lista exacta. Un nombre de perfil escrito en un documento no constituye un gestor de extensiones ni aísla automáticamente el directorio del juego.
 
 ## Preparación del control
+
+Se preparó un respaldo verificado de ocho archivos del perfil (45.660.548 bytes), configuración candidata con siete DLC habilitados y entradas comunitarias antiguas deshabilitadas, y staging de los dos mods del laboratorio de conjuntos. Todo reside en `workspace/labs`, ignorado por Git. [Rutas, límites y pasos de ejecución](PREPARACION_BASE01_Y_LAB_SETS.md). No se activaron esas copias; BASE-01 y LAB-SETS continúan `NOT_TESTED`.
 
 La inspección local encontró siete DLC en las dos ubicaciones revisadas (juego y perfil de usuario): Split Vendetta, Cradle of Humanity, Tides of Avarice, Kingdom End, Timelines, Hyperion Pack y Envoy Pack. Todos declaran versión `900` y `enabled="1"`. No hay mod comunitario con `content.xml` en esos directorios, pero se debe confirmar la lista cargada dentro del juego.
 
@@ -38,7 +40,7 @@ El log existente comenzó el 2026-10-09 y registra 9.00 (611726), archivos de TM
 | CORE-03 | Cero cambios en órdenes, créditos, NPC o inventario por el observador | NOT_TESTED |
 | INT-01 | Complemento aislado y después junto a core, sin regresión del dominio | NOT_TESTED |
 | LAB-GATE-01 | Solo construcción con materiales/constructoras; ambos extremos y persistencia | BLOCKED: laboratorio aún no preparado |
-| LAB-PFR-01 | Requisitos completos; autoridad/órdenes y cuentas sin duplicación | BLOCKED: Conversation Pagination no disponible localmente |
+| LAB-PFR-01 | Requisitos completos; autoridad/órdenes y cuentas sin duplicación | NOT_TESTED: API local verificada; falta carga y ensayo independiente |
 | LAB-CREW-01 | Identidad y rescate sin duplicación; un sistema por ensayo | NOT_TESTED |
 
 La sustitución UIX/Star Command requiere comparar el payload efectivo del target monitor y su comportamiento, además de la lista de archivos. El fallo XML en cuarentena se resuelve con un artefacto corregido antes de probarlo en el motor.

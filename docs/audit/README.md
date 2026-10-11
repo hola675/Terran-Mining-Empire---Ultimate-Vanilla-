@@ -2,7 +2,7 @@
 
 **Inspección:** 2026-10-10. **Objetivo:** X4: Foundations 9.00. **Resultado:** auditoría estática completada; selección propuesta y compatibilidad en el motor pendientes.
 
-Se inspeccionaron los **112 archivos locales**: 80 en `inputs/mods`, 20 en `inputs/reference/mods` y 12 en `inputs/reference/tools`. Los 102 ZIP, 6 7Z y 4 RAR pudieron leerse. Se calcularon SHA-256 de cada paquete, se leyeron 131 manifiestos de extensión (124 IDs distintos) y se verificaron 48 pares CAT/DAT con 24.739 entradas mediante los MD5 declarados por sus catálogos. Un ZIP puede contener muchas extensiones: `x4-projects-master.zip` contiene 29 manifiestos; no es un único mod instalable.
+Se inspeccionaron los **113 archivos locales**: 81 en `inputs/mods`, 20 en `inputs/reference/mods` y 12 en `inputs/reference/tools`. Los 102 ZIP, 7 7Z y 4 RAR pudieron leerse. Se calcularon SHA-256 de cada paquete, se leyeron 132 manifiestos de extensión (125 IDs distintos) y se verificaron 48 pares CAT/DAT con 24.739 entradas mediante los MD5 declarados por sus catálogos. Un ZIP puede contener muchas extensiones: `x4-projects-master.zip` contiene 29 manifiestos; no es un único mod instalable.
 
 `READ` significa que se pudo inspeccionar el archivo; no certifica todos sus assets, instalación, ejecución, autenticidad de origen ni compatibilidad. Los hashes identifican esta copia local, sin comparación con hashes publicados por el autor. La inspección de herramientas se limita a su archivo, índice y documentos: no se ejecutaron los programas descargados.
 
@@ -11,7 +11,7 @@ Se inspeccionaron los **112 archivos locales**: 80 en `inputs/mods`, 20 en `inpu
 | Prioridad | Evidencia | Consecuencia |
 |---|---|---|
 | P0 | Kill And Attack Notifications Extended: `md/kill_and_attack_notifications_extended.xml`, línea 667, cierre de etiqueta discordante | Cuarentena del artefacto; no instalar esta copia |
-| P0 | Player Feudal Realm declara `ws_3722585376`, versión mínima `900`, obligatorio, sin proveedor local en la colección ni instalación inspeccionadas | Laboratorio de gobernadores bloqueado por Conversation Pagination API |
+| P0 | Player Feudal Realm declara `ws_3722585376`, versión mínima `900`, obligatorio; el nuevo 7Z confirma ese ID y versión `900` | Ausencia del paquete resuelta; carga y laboratorio de gobernadores pendientes |
 | P0 | UI Extensions y Star Command sustituyen `ui/addons/ego_targetmonitor/targetmonitor.xpl` con contenido diferente | Resolver la selección y sustitución de UI antes de probarlos juntos |
 | P0 | Siete IDs tienen más de un paquete proveedor, incluidos dos Don't Ignore Blacklists distintos con ID `Dont_Ignore_blacklists` | Elegir una sola variante por ID; no copiar fuentes y releases simultáneamente |
 | P1 | Ocho dependencias usan `minversion`, y dos relaciones tienen versiones no comparables como enteros | Preservar la declaración y verificar su interpretación por el motor |
@@ -24,7 +24,7 @@ Hay **404 rutas compartidas** entre proveedores; 184 aparecen en los catálogos 
 
 ## Incorporación adicional y siguientes pasos
 
-[**Guía de incorporación y siguientes pasos**](GUIA_INCORPORACION_Y_SIGUIENTES_PASOS.md): concilia las **112 descargas locales actuales** (Extension Sets Manager 1.03 y Sir Sector's Compatibility Patch 1.97 ya inventariados), identifica Conversation Pagination API 9.0 como **adquisición aún pendiente**, documenta restricciones de redistribución y fija los ensayos separados de V5.7, PFR y gestor de conjuntos. **No añade binarios de terceros ni declara resultados runtime.**
+[**Guía de incorporación y siguientes pasos**](GUIA_INCORPORACION_Y_SIGUIENTES_PASOS.md): concilia las **113 descargas locales actuales**, incluida Conversation Pagination API 9.0 **copiada y auditada**, junto con Extension Sets Manager 1.03 y Sir Sector's Compatibility Patch 1.97, documenta restricciones de redistribución y fija los ensayos separados de V5.7, PFR y gestor de conjuntos. **No añade binarios de terceros ni declara resultados runtime.**
 
 ## Expedientes
 
@@ -41,15 +41,15 @@ La colección incluye las [dos descargas incorporadas desde `Downloads/new`](PAC
 
 ## Evidencias y repetición
 
-La carpeta [data](data/) publica solo metadatos, rutas y fingerprints: inventario de 112 paquetes, 131 manifiestos, 201 relaciones declaradas, solapamientos con selectores, selección propuesta y registro documental de licencias para todos los paquetes. [summary.json](data/summary.json) conserva fecha UTC, hash del script, estado del entorno y hashes de los 30 catálogos del juego/DLC consultados. Se excluyeron sus catálogos de firmas `_sig`. Se identificaron 513.274 rutas virtuales únicas en ese ámbito, sin leer ni verificar los DAT del juego. Ese número no es comparable directamente con el índice que cubre solo el juego base.
+La carpeta [data](data/) publica solo metadatos, rutas y fingerprints: inventario de 113 paquetes, 132 manifiestos, 201 relaciones declaradas, solapamientos con selectores, selección propuesta y registro documental de licencias para todos los paquetes. [summary.json](data/summary.json) conserva fecha UTC, hash del script, estado del entorno y hashes de los 30 catálogos del juego/DLC consultados. Se excluyeron sus catálogos de firmas `_sig`. Se identificaron 513.274 rutas virtuales únicas en ese ámbito, sin leer ni verificar los DAT del juego. Ese número no es comparable directamente con el índice que cubre solo el juego base.
 
-El informe detallado local `workspace/audit-pack-base/audit.json` conserva las operaciones XML por archivo, los MD5 comprobados y la cobertura de catálogos. No se incorpora completo a Git por su tamaño; puede regenerarse con las mismas entradas. Los paquetes originales y las dependencias del lector siguen ignorados por Git.
+El informe detallado local `workspace/audit-conversation-pagination/audit.json` conserva las operaciones XML por archivo, los MD5 comprobados y la cobertura de catálogos. No se incorpora completo a Git por su tamaño; puede regenerarse con las mismas entradas. Los paquetes originales y las dependencias del lector siguen ignorados por Git.
 
 Desde la raíz, en PowerShell, con Python 3.14 (versión usada en esta inspección) y UnRAR instalado en `C:\Program Files\WinRAR\UnRAR.exe` o disponible como `unrar` en PATH:
 
 ```powershell
 python -m pip install --target workspace/audit-pack-base/vendor py7zr==1.1.3
-python scripts/audit_pack.py --vendor workspace/audit-pack-base/vendor --game 'D:\Games\X4 Foundations' --profile 'C:\Users\Admin\Documents\Egosoft\X4\6144'
+python scripts/audit_pack.py --vendor workspace/audit-pack-base/vendor --game 'D:\Games\X4 Foundations' --profile 'C:\Users\Admin\Documents\Egosoft\X4\6144' --output workspace/audit-conversation-pagination
 python scripts/test_audit_pack.py
 ```
 
@@ -58,11 +58,13 @@ python scripts/test_audit_pack.py
 Para actualizar la evidencia versionada tras revisar un nuevo resultado:
 
 ```powershell
-Copy-Item -LiteralPath workspace/audit-pack-base/packages.csv, workspace/audit-pack-base/extensions.csv, workspace/audit-pack-base/dependencies.csv, workspace/audit-pack-base/overlaps.csv, workspace/audit-pack-base/licenses.csv, workspace/audit-pack-base/license_packages.csv, workspace/audit-pack-base/selection.csv, workspace/audit-pack-base/summary.json -Destination docs/audit/data
+Copy-Item -LiteralPath workspace/audit-conversation-pagination/packages.csv, workspace/audit-conversation-pagination/extensions.csv, workspace/audit-conversation-pagination/dependencies.csv, workspace/audit-conversation-pagination/overlaps.csv, workspace/audit-conversation-pagination/licenses.csv, workspace/audit-conversation-pagination/license_packages.csv, workspace/audit-conversation-pagination/selection.csv, workspace/audit-conversation-pagination/summary.json -Destination docs/audit/data
 ```
 
 ## Límites de la conclusión
 
 Las herramientas MCP del grafo no estuvieron disponibles: no se obtuvo generación ni cobertura del grafo. Se usó lectura directa de archivos en el ámbito documentado. No se lanzaron X4 ni los mods, no se inspeccionaron saves, no se alteraron perfiles/extensiones y no se aplicaron diffs a un universo fusionado. El escáner no interpreta XPath, precedencia entre loose/CAT, variantes por versión, aliases equivalentes, ciclos de carga ni callbacks Lua; el bytecode XPL queda opaco. Los marcadores de licencia son pistas documentales, no una autorización de redistribución. Cualquier caso fuera de estas comprobaciones sigue `NOT_TESTED` o `NOT_CLEARED`.
 
-**Siguiente trabajo:** preparar `X4-VANILLA-900`, elegir la estrategia mínima de UI para V5.7 y ejecutar los gates del [documento 18](../plan/18_V57_ESTACION_REAL_ALMACENAMIENTO.md). La auditoría no cambia la prioridad presidencial de observar una estación real.
+**Preparación local:** respaldo del perfil y configuración candidata de BASE-01, más staging separado de Print Extension List y Extension Sets Manager; véase [preparación y ejecución pendiente](PREPARACION_BASE01_Y_LAB_SETS.md). El perfil activo permanece intacto y no hay carpeta `save` en el perfil inspeccionado.
+
+**Siguiente trabajo, pospuesto por el usuario:** crear una partida de ensayo legítima, ejecutar `X4-VANILLA-900`, elegir la estrategia mínima de UI para V5.7 y ejecutar los gates del [documento 18](../plan/18_V57_ESTACION_REAL_ALMACENAMIENTO.md). La auditoría no cambia la prioridad presidencial de observar una estación real.

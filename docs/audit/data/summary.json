@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-10-10T21:00:30.936651+00:00",
+  "generated_utc": "2026-10-11T02:44:02.947862+00:00",
   "script_sha256": "a897c32620196f458c8e04fd91dd20b7762d960e7fc8a684ac3510ddfcc3680e",
   "summary": {
-    "archives": 112,
+    "archives": 113,
     "archive_formats": {
       "ZIP": 102,
       "RAR": 4,
-      "7Z": 6
+      "7Z": 7
     },
     "archive_status": {
-      "READ": 112
+      "READ": 113
     },
-    "extension_manifests": 131,
-    "distinct_extension_ids": 124,
+    "extension_manifests": 132,
+    "distinct_extension_ids": 125,
     "catalog_status": {
       "VERIFIED_DAT": 48
     },
     "catalog_entries": 24739,
     "xml_parse_errors": 1,
     "dependency_states": {
-      "NOMINAL_VERSION_OK": 182,
-      "NOT_FOUND": 9,
+      "NOMINAL_VERSION_OK": 183,
+      "NOT_FOUND": 8,
       "UNVERIFIED_ATTRIBUTE": 8,
       "UNKNOWN_VERSION": 2
     },
@@ -34,7 +34,7 @@
     },
     "breaking_900_hits": 1,
     "proposed_roles": {
-      "REFERENCE": 75,
+      "REFERENCE": 76,
       "OPTIONAL_CANDIDATE": 13,
       "LAB": 9,
       "QUARANTINE": 1,
