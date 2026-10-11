@@ -22,6 +22,10 @@ Se inspeccionaron los **112 archivos locales**: 80 en `inputs/mods`, 20 en `inpu
 
 Hay **404 rutas compartidas** entre proveedores; 184 aparecen en los catálogos actuales del juego/DLC. Su clasificación distingue 97 solapamientos de diffs, 81 alternativas del mismo ID, 208 rutas compartidas de otros tipos, 17 archivos de traducción y una ruta de sustitución UI entre IDs distintos. Esto no equivale a 404 incompatibilidades ni es una matriz de una instalación activa. Incluye las fuentes de referencia. La única coincidencia del escaneo con acciones/API retiradas de 9.00 (`event_area_discovered`) se revisó en el fuente: está comentada en `md/kuertee_ssac.xml:737` y **no demuestra uso incompatible**.
 
+## Incorporación adicional y siguientes pasos
+
+[**Guía de incorporación y siguientes pasos**](GUIA_INCORPORACION_Y_SIGUIENTES_PASOS.md): concilia las **112 descargas locales actuales** (Extension Sets Manager 1.03 y Sir Sector's Compatibility Patch 1.97 ya inventariados), identifica Conversation Pagination API 9.0 como **adquisición aún pendiente**, documenta restricciones de redistribución y fija los ensayos separados de V5.7, PFR y gestor de conjuntos. **No añade binarios de terceros ni declara resultados runtime.**
+
 ## Expedientes
 
 La colección incluye las [dos descargas incorporadas desde `Downloads/new`](PACK_BASE_MANIFEST.md#incorporación-de-las-dos-descargas-nuevas): Extension Sets Manager 1.03 como candidato opcional y Sir Sector's Compatibility Patch 1.97 como laboratorio. Se preservaron los originales y se verificaron los hashes de las copias. Las [doce sustituciones del parche](data/compatibility_patch_overrides.csv) se compararon aparte contra soporte 1.95; el detector general no resuelve ese prefijo de extensión destino.
